@@ -140,7 +140,11 @@ $(function(){
 $(function(){
     $('.h-cont-three1-left').mouseover(function(){
         $('.h-cont-three1-left>a>img').css({
-            transform: 'scale(1.2)',
+            '-webkit-transform': 'scale(1.2)',
+            '-mos-transform': 'scale(1.2)',
+            '-ms-transform': 'scale(1.2)',
+            '-o-transform': 'scale(1.2)',
+            'transform': 'scale(1.2)',
             '-webkit-transition':'1s' ,
             '-mos-transition':'1s',
             '-ms-transition':'1s',
@@ -184,17 +188,29 @@ $(function(){
 $(function(){
     $('.h-main-cont-pink').hover(function(){
         $('.h-main-cont-img1').css({
-            transform: 'translateX(10px)',
+            '-webkit-transform': 'translateX(10px)',
+            '-mos-transform': 'translateX(10px)',
+            '-ms-transform': 'translateX(10px)',
+            '-o-transform': 'translateX(10px)',
+            'transform': 'translateX(10px)',
             transition:'2s',
             opacity: '1'
         });
         $('.h-main-cont-img2').css({
-            transform: 'translateX(10px)',
+            '-webkit-transform': 'translateX(10px)',
+            '-mos-transform': 'translateX(10px)',
+            '-ms-transform': 'translateX(10px)',
+            '-o-transform': 'translateX(10px)',
+            'transform': 'translateX(10px)',
             transition:'2s',
             opacity: '1'
         });
         $('.h-main-cont-pink-video').css({
-            transform: 'translateX(180px)',
+            '-webkit-transform': 'translateX(180px)',
+            '-mos-transform': 'translateX(180px)',
+            '-ms-transform': 'translateX(180px)',
+            '-o-transform': 'translateX(180px)',
+            'transform': 'translateX(180px)',
             transition:'2s',
             opacity: '1'
         })
