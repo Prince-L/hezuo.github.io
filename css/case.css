@@ -1,0 +1,173 @@
+.z-left{
+    float: left;
+}
+.z-right{
+    float: right;
+}
+.z-clear{
+    clear: both;
+}
+.z-big{
+    width: 100%;
+}
+.z-center{
+    width: 1024px;
+    margin: 0 auto;
+}
+/*案例开始*/
+
+/*案例跳转*/
+.z-skip{
+    height: 56px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.z-skip span a{
+    line-height: 56px;
+    color:#999999;
+    font-size: 14px;
+    letter-spacing: .8px;
+}
+.z-nav{
+    height: 120px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    margin-bottom: 10px;
+}
+.z-navColor span{
+    font-size: 14px;
+    font-weight: bold;
+    /*line-height: 47px;*/
+}
+.z-navColor a{
+    font-size: 14px;
+    margin: 0 5px 0;
+    padding: 4px 5px;
+}
+.z-navSize{
+    padding-top: 30px;
+}
+.z-navType{
+    padding-top: 20px;
+
+}
+.z-navColor a:hover{
+    border-radius: 2px;
+    color:#fff;
+    background-color: #008489;
+}
+
+
+.z-padding{
+
+
+
+}
+.z-padding .z-chunk:nth-of-type(3n){
+    margin-right: 0;
+}
+.z-chunk{
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    width: 328px;
+    height: 312px;
+    margin-right: 20px;
+    /*background-color: pink;*/
+}
+.z-chunk img{
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 0;
+    width: 328px;
+    height: 312px;
+}
+.z-mask{
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 328px;
+    height: 312px;
+    z-index: 1;
+}
+.z-chunk:hover .z-mask{
+    transition: 1s;
+    background-color:rgba(0,0,0,.7) ;
+}
+
+.z-maskFont{
+    color:#fff;
+    width: 300px;
+    /*height: 312px;*/
+    z-index: 5;
+    position: absolute;
+    left:0;
+    top:0;
+    transform: translateY(270PX);
+
+    /*background-color: red;*/
+}
+.z-maskFont p,.z-delay p{
+    padding-left: 20px;
+}
+.z-maskFont p:nth-of-type(1){
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.50);
+    margin-bottom: 8px;
+}
+
+
+.z-maskFont p:nth-of-type(2){
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    line-height: 20px;
+    padding-top: 5px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.50);
+}
+.z-delay{
+    width: 300px;
+    /*height: 312px;*/
+    z-index: 5;
+    position: absolute;
+    left:0;
+    top:0;
+    transform: translateY(300PX);
+    /*background-color: red;*/
+}
+.z-delay p:nth-of-type(1){
+    /*opacity: 0;*/
+    padding-top: 30px;
+    font-size: 14px;
+    color: #ccc;
+    letter-spacing: 0px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.50);
+    margin-bottom: 5px;
+}
+.z-delay p:nth-of-type(2) {
+    /*opacity: 0;*/
+    font-size: 14px;
+    color: #ccc;
+    letter-spacing: 0px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.50);
+}
+
+
+.empty{
+    height: 75px;
+    /*background-color: deeppink;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*案例结束*/
