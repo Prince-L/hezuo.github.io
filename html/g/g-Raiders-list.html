@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../../css/g-Raiders.css">
     <link rel="stylesheet" href="../../css/g-Raiders-list.css">
     <script src="../../js/jquery-1.8.3.min.js"></script>
-    <script src="../../js/g-choose-list.js"></script>
+    <!--<script src="../../js/g-choose-list.js"></script>-->
 </head>
 <body>
 <!--导航-->
@@ -93,8 +93,8 @@
     </div><!--选项分类-->
     <!--加载内容-->
     <div class="g-modular-container">
-        <ul class="g-article-lists clear" id="g-article-lists">
-            <img src="../../img/g-img/chuang1.jpg" alt="">
+        <ul class="g-article-lists clear" id="g-article-lists" >
+
         </ul>
     </div><!--加载内容-->
     <!--选项卡-->
@@ -154,4 +154,71 @@
 </body>
 <script src="../../js/index.js"></script>
 <script src="../../js/listTab.js"></script>
+<script>
+
+/*
+    var gArticleLists=document.getElementById('g-article-lists');
+    var str="";
+    $.ajax({
+        type:"get",
+        url:"../../json/json.json",
+        success:function(data){
+//            console.log(data);
+            data.listTab.map(function(x,i){
+                str +='<li class="g-article-cell">'+
+                    '<a href="javascript:" target="_blank">'+
+                    '<img src='+x.url+' alt="" class="g-article-img">'+
+                    '<div class="g-article-text">'+
+                    '<p class="g-article-title">'+x.title+'</p>'+
+                    '<div class="g-article-sign clear">'+
+                    ' <span>'+x.sign+'</span>'+
+                    '</div>'+
+                    '<p class="g-article-desc">'+x.desc+'</p>'+
+                    '</div>'+
+                    '</a>'+
+                    '</li>'; //符合条件的拼接
+                gArticleLists.innerHTML = str//写入页面
+            })
+        },
+        error:function(){
+            alert("失败")
+        }
+    });
+
+
+
+    function ga(a) {
+        str = '';//重置字符串
+        $.ajax({
+            type: "get",
+            url: "../../json/json.json",
+            success: function (data) {
+//                console.log(data);
+                data.listTab.map(function (x, i) {
+//                    console.log(x.id==1)
+                    if(x.id==a){
+                        str += '<li class="g-article-cell">' +
+                            '<a href="javascript:" target="_blank">' +
+                            '<img src=' + x.url + ' alt="" class="g-article-img">' +
+                            '<div class="g-article-text">' +
+                            '<p class="g-article-title">' + x.title + '</p>' +
+                            '<div class="g-article-sign clear">' +
+                            ' <span>' + x.sign + '</span>' +
+                            '</div>' +
+                            '<p class="g-article-desc">' + x.desc + '</p>' +
+                            '</div>' +
+                            '</a>' +
+                            '</li>'; //符合条件的拼接
+                        gArticleLists.innerHTML = str//写入页面
+                    }
+
+
+                })
+            },
+            error: function () {
+                alert("失败")
+            }
+        });
+    }*/
+</script>
 </html>
