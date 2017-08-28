@@ -1,0 +1,86 @@
+/*右边固定*/
+.h-right-fixed{
+    position: fixed;
+    right: 0;
+    top: 50%;
+    z-index: 100;
+    width: 70px;
+    margin-top: -161px;
+}
+.h-right-fixed1{
+    box-sizing: border-box;
+    width: 70px;
+    height: 80px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px 0 0 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}
+.h-right-fixed1>img{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    padding: 11px 13px 11px 20px;
+}
+.h-right-fixed1 p{
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    color: #fff;
+}
+/*内容*/
+.h-news-cont{
+    width: 1000px;
+    height: 16271px;
+    margin: 73px auto;
+    padding: 0px 100px;
+    padding-top: 87px;
+    padding-bottom: 10px;
+    position: relative;
+    top: -14px;
+    box-sizing: border-box;
+}
+.h-news-cont-logo{
+    margin-top: 30px;
+    width: 120px;
+}
+.h-news-cont>h2{
+    clear: both;
+    margin-top: 28px;
+    margin-bottom: 39px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+}
+.h-news-data{
+    font-size: 16px;
+    color: #a4a4a4;
+}
+.h-news-data>span{
+    margin-right: 10px;
+}
+.h-news-data>a{
+    color: #4990E2;
+}
+.h-news-content{
+     /*padding: 0 100px;*/
+    padding-bottom: 50px;
+}
+.h-news-content p{
+    padding-top: 25px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2b2b2b;
+    clear: both;
+    overflow: hidden;
+    z-index: 0;
+}
+.h-news-content img{
+    display: block;
+    margin: 0 auto;
+    width: 800px!important;
+    max-width: 800px!important;
+}

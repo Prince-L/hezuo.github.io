@@ -3,10 +3,13 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>首页</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <!--<link rel="stylesheet" href="css/index.css"/>-->
     <link rel="stylesheet" href="css/h-index.css"/>
+    <link rel="stylesheet" href="css/h-moblie-index.css"/>
     <link rel="stylesheet" href="css/reset.css"/>
     <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/mobile-util.js"></script>
     <link rel="stylesheet" type="text/css" href="css/font_p2t9isy0eqjxxbt9/iconfont.css">
 </head>
 <body>
@@ -15,7 +18,10 @@
     <div class="h-nav1">
         <div class="h-nav2">
             <div class="h-nav-logo">
-                <a href="index.html"><img src="img/h-img/logo.png" alt=" "/></a>
+                <a href="index.html">
+                    <img src="img/h-img/h-phone.png" alt="" class="h-phone"/>
+                    <img src="img/h-img/logo.png" alt=" " class="h-PC"/>
+                </a>
             </div>
             <ul class="h-nav-ul">
                 <li class="h-nav-ul-li">
@@ -63,7 +69,7 @@
     <!-- 第一块内容-->
     <ul class="h-cont-one">
         <li class="h-cont-one1">
-            <a href="html/h/h-cehua.html" target="_blank">
+            <a href="html/h/h-plot.html" target="_blank">
                 <div class="h-cont-one-text">
                     <h2>婚礼策划</h2>
                     <p>服务流程 专业团队<br> 优质资源</p>
@@ -72,7 +78,7 @@
             </a>
         </li>
         <li class="h-cont-one1">
-            <a href="html/h/h-taoxi.html" target="_blank">
+            <a href="html/h/h-Set.html" target="_blank">
                 <div class="h-cont-one-text">
                     <h2>婚礼套系</h2>
                     <p>粉色花园 红色圣宴<br>  时尚摩登</p>
@@ -299,12 +305,11 @@
     <div class="h-cont-five">
         <div class="h-cont-two1">
             <h2>媒体报道</h2>
-            <a href="html/w.html">更多> </a>
         </div>
         <div class="h-cont-five-cont1">
             <ul class="h-cont-four-cont2">
                 <li class="h-cont-four-cont3">
-                    <a href="#">
+                    <a href="html/h/h-news.html" target="_blank">
                         <div class="h-cont-five-cont3-l">
                             <img src="img/h-img/h-bac14.png" alt=""/>
                             <p>
@@ -317,7 +322,7 @@
                     </a>
                 </li>
                 <li class="h-cont-four-cont3">
-                    <a href="#">
+                    <a href="html/h/h-news.html" target="_blank">
                         <div class="h-cont-five-cont3-l">
                             <img src="img/h-img/h-bac15.png" alt=""/>
                             <p>
@@ -331,7 +336,7 @@
                     </a>
                 </li>
                 <li class="h-cont-four-cont3">
-                    <a href="#">
+                    <a href="html/h/h-news.html" target="_blank">
                         <div class="h-cont-five-cont3-l">
                             <img src="img/h-img/h-bac16.png" alt=""/>
                             <p>
@@ -345,7 +350,7 @@
                     </a>
                 </li>
                 <li class="h-cont-four-cont3">
-                    <a href="#">
+                    <a href="html/h/h-news.html" target="_blank">
                         <div class="h-cont-five-cont3-l">
                             <img src="img/h-img/h-bac17.png" alt=""/>
                             <p>
@@ -375,8 +380,8 @@
                 <a href="html/z.html">场地</a>
                 <a href="html/w.html">案例</a>
                 <a href="html/g.html">攻略</a>
-                <a href="html/h/h-cehua.html">婚礼策划</a>
-                <a href="html/h/h-taoxi.html">婚礼套系</a>
+                <a href="html/h/h-plot.html">婚礼策划</a>
+                <a href="html/h/h-Set.html">婚礼套系</a>
                 <a href="html/h/h-about.html">关于美薇亭</a>
             </div>
             <div class="h-foot-cont h-footer-center1">
@@ -451,13 +456,4 @@
 </div>
 </body>
 <script src="js/index.js"></script>
-<script>
-//    var oMain=document.getElementById('top');
-//    var H=document.documentElement.scrollTop||document.body.scrollTop;
-//    if(H>200){
-//        oMain.style.display='block';
-//    }else{
-//        oMain.style.display='none';
-//    }
-</script>
 </html>
