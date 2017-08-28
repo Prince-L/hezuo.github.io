@@ -68,7 +68,7 @@
 <!--选项卡-->
     <!--选项分类-->
     <div class="g-choose-list">
-        <div class="strategy-type">
+        <div id="strategy-type">
             <ul class="clear">
                 <li value="2" class="active">
                     <a href="javascript:" onClick="ga(1);">婚礼摄影</a>
@@ -154,71 +154,4 @@
 </body>
 <script src="../../js/index.js"></script>
 <script src="../../js/listTab.js"></script>
-<script>
-
-/*
-    var gArticleLists=document.getElementById('g-article-lists');
-    var str="";
-    $.ajax({
-        type:"get",
-        url:"../../json/json.json",
-        success:function(data){
-//            console.log(data);
-            data.listTab.map(function(x,i){
-                str +='<li class="g-article-cell">'+
-                    '<a href="javascript:" target="_blank">'+
-                    '<img src='+x.url+' alt="" class="g-article-img">'+
-                    '<div class="g-article-text">'+
-                    '<p class="g-article-title">'+x.title+'</p>'+
-                    '<div class="g-article-sign clear">'+
-                    ' <span>'+x.sign+'</span>'+
-                    '</div>'+
-                    '<p class="g-article-desc">'+x.desc+'</p>'+
-                    '</div>'+
-                    '</a>'+
-                    '</li>'; //符合条件的拼接
-                gArticleLists.innerHTML = str//写入页面
-            })
-        },
-        error:function(){
-            alert("失败")
-        }
-    });
-
-
-
-    function ga(a) {
-        str = '';//重置字符串
-        $.ajax({
-            type: "get",
-            url: "../../json/json.json",
-            success: function (data) {
-//                console.log(data);
-                data.listTab.map(function (x, i) {
-//                    console.log(x.id==1)
-                    if(x.id==a){
-                        str += '<li class="g-article-cell">' +
-                            '<a href="javascript:" target="_blank">' +
-                            '<img src=' + x.url + ' alt="" class="g-article-img">' +
-                            '<div class="g-article-text">' +
-                            '<p class="g-article-title">' + x.title + '</p>' +
-                            '<div class="g-article-sign clear">' +
-                            ' <span>' + x.sign + '</span>' +
-                            '</div>' +
-                            '<p class="g-article-desc">' + x.desc + '</p>' +
-                            '</div>' +
-                            '</a>' +
-                            '</li>'; //符合条件的拼接
-                        gArticleLists.innerHTML = str//写入页面
-                    }
-
-
-                })
-            },
-            error: function () {
-                alert("失败")
-            }
-        });
-    }*/
-</script>
 </html>
