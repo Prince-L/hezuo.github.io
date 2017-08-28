@@ -11,7 +11,6 @@ var num2=0;
 var a=-1,bol=true;
 
 onscroll = function(e){
-
     var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
     if(document.body.scrollHeight - (innerHeight + scrollTop) < 200){
         if(bol){

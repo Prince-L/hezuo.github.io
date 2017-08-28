@@ -3,15 +3,18 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>场地</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="../../css/index.css"/>
     <link rel="stylesheet" href="../../css/reset.css"/>
+    <script src="../../js/mobile-util.js"></script>
+    <meta name="viewport" content="width=640">
     <link rel="stylesheet" href="../../css/w.css"/>
     <script src="../../js/jquery-1.8.3.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../../css/font_p2t9isy0eqjxxbt9/iconfont.css">
 </head>
 <body>
 <!--导航-->
-<div class="h-nav">
+<div class="h-nav w-nav">
     <div class="h-nav1 w-nav1">
         <div class="h-nav2">
             <div class="h-nav-logo">
@@ -54,14 +57,14 @@
 <!--内容-->
 <div class="cont w-wrap">
     <div class="w-box">
-        <p class="w_con_nav" style="border:0">
+        <p class="w_con_nav w-nav" style="border:0">
             <a href="#">首页</a> > <a href="#">场地</a> > <a href="#">北湖九号</a>
         </p>
         <div class="w_con_juihao">
             <div class="w_juihao_left">
                 <h1>
                     <span>北湖九号</span>
-                    <span>特色餐厅</span>
+                    <span class="w-nav">特色餐厅</span>
                 </h1>
                 <div class="w-clear"></div>
                 <p class="w_juihao_p">北京 朝阳 来广营乡安外北湖9号</p>
@@ -143,6 +146,7 @@
                 </div>
                 <div class="w_jiuhao_list">
                     <span class="w-span"> 宴会厅</span>
+
                     <div class="w-p">
                         <p class="p">中央大草坪</p>
                         <div>
@@ -182,27 +186,30 @@
                     </div>
                     <div class="w-clear"></div>
                 </div>
+
                 <div class="w_jiuhao_list">
                     <span class="w-span">深度解析</span>
                     <div class="w-clear"></div>
                     <div>
+                       <a href="shendujiexi.html">
                        <div class="w_jiuhao_list_left">
                            <img src="../../img/w-img/jiuhao3.jpg" alt="">
                            <div>
                                <h1>场地解析|探寻京城顶级私密会所，带你踩踩一年四季青百万草坪</h1>
-                               <p>青砖白瓦灰白两色的古朴建筑，现代的草坪西式婚礼，古今碰撞的别样体验~</p>
+                               <p class="w-nav">青砖白瓦灰白两色的古朴建筑，现代的草坪西式婚礼，古今碰撞的别样体验~</p>
                            </div>
-                       </div>
+                       </div></a>
+                       <a href="shendujiexi.html">
                         <div class="w_jiuhao_list_left w_jiuhao_list_right">
                             <img src="../../img/w-img/jiuhao4.jpg" alt="">
                             <div>
                                 <h1>服务特色｜从清晨到日落，完美一天的超优质婚礼体验！</h1>
-                                <p>看朝阳初起、夕阳西落，如诗如画的北湖九号庭院中，超高性价比婚礼 ~</p>
+                                <p class="w-nav">看朝阳初起、夕阳西落，如诗如画的北湖九号庭院中，超高性价比婚礼 ~</p>
                             </div>
-                        </div>
+                        </div></a>
                     </div>
                     <div class="w-clear"></div>
-                </div>
+                </div></a>
                 <div class="w_jiuhao_list" style="border:0;">
                     <span class="w-span">精选案例</span>
                     <div class="w-clear"></div>
@@ -222,7 +229,7 @@
                     <div class="w-clear"></div>
                 </div>
             </div>
-            <div class="w_juihao_right">
+            <div class="w_juihao_right w-nav">
                 <div class="w_jiuhao_find">
                     <h4>全国热线：400-0019-456</h4>
                     <div class="w_jiuhao_book">
@@ -240,7 +247,7 @@
             <div class="w_jiuhao_tuijian">
                 <h1>相关场地推荐</h1>
                 <div>
-                    <dl>
+                    <dl class="w-nav">
                         <dt><img src="../../img/w-img/jiuhao6.jpg" alt=""></dt>
                         <dd>
                             <p>长城脚下的公社</p>
@@ -283,7 +290,7 @@
 
 
 <!--底部-->
-<div class="h-footer">
+<div class="h-footer w-nav">
     <div class="h-footer-cont">
         <div class="h-footer-top">
             <a href="../../index.html">首页 ></a>
@@ -335,6 +342,10 @@
         </div>
     </div>
 </div>
+<div class="w_jiuhao_tuijian w_location" style="display: none">
+    <h1>地理定位</h1>
+    <div style="width:1024px;height:550px;border:#ccc solid 1px;" id="dituContent"></div>
+</div>
 <div class="w-loading">
     <p>
         <span class='w-load' style='margin-left:10px;'></span>
@@ -344,7 +355,19 @@
     <div class='w-clear'></div>
     <p class='w-cur'>加载更多</p>
 </div>
+<div class="w_jiuhao_find" style="display: none">
+    <h4>全国热线：400-0019-456</h4>
+    <div class="w_jiuhao_book">
+        <h3>预约咨询</h3>
+        <ul>
+            <li><span class="w_jiuhao_span"></span><input class="w_jiuhao_input" type="text" value="姓名"></li>
+            <li><span class="w_jiuhao_span"></span><input class="w_jiuhao_input" type="text" value="手机号码"></li>
+        </ul>
+        <input type="button" class="w_jiuhao_btn" value="立即预约">
+    </div>
+</div>
 </body>
 <script src="../../js/index.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 <script src="../../js/w/w.js"></script>
 </html>

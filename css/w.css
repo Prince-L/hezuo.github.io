@@ -39,14 +39,14 @@
     background: #d8d8d8;
 }
 /*banner*/
+.w-inner{
+    position: relative;
+    height: 350px;
+}
 .w-inner img{
     height: 100%;
     width: 100%;
     position: absolute;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
     z-index: 2;
 }
 .h-nav .w-nav1{
@@ -613,3 +613,288 @@
     color: #3A3A3A;
     margin-bottom: 20px;
 }
+.w_select{
+    display: none;
+}
+.w_list_icon_right p:nth-child(6){
+    display: none;
+}
+.w_list_icon_right p:nth-child(7){
+    display: none;
+}
+/*深度解析*/
+.w-inner .w_icon{
+    width: 100%;
+    height: 58px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+.w-con{
+    width: 780px;
+    margin: 0 auto;
+}
+.w_h1 img{
+    width: auto;
+    display: block;
+    padding: 50px 0 40px;
+    margin: 0 auto;
+}
+.w_h3{
+    font-size: 26px;
+    text-align: center;
+    margin: 0 auto 30px;
+}
+.w_p{
+    font-size: 16px;
+    color: #444;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.w_h4{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.w_margin{
+    margin-top: 40px;
+}
+.w_img img{
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+    height: 433px;
+}
+.w_tu{
+    font-family: 微软雅黑, "Microsoft YaHei";
+    font-size: 14px;
+    color: rgb(127, 127, 127);
+    text-align: center;
+    margin-bottom: 15px;
+}
+.w_bottom{
+    border-bottom: 1px solid black;
+    padding-bottom:30px ;
+}
+.w_book{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    color: #00C1AF;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:640px){
+    /*公共*/
+    .w-wrap{
+        width:100%;
+    }
+    .w-box{
+        width:100%;
+        margin:0 auto;
+    }
+    .w-nav{
+        display: none;
+    }
+    /*下拉*/
+    .w_select{
+        display: block;
+        width: 100%;
+        height:50px;
+        border: 1px solid lavender;
+        box-sizing: border-box;
+        overflow: hidden;
+        line-height: 50px;
+        text-align: center;
+        font-size: 20px;
+        color: #3A3A3A;
+    }
+    .w_select > p{
+        border-bottom: 1px solid lavender;;
+    }
+    .w_select .w_span{
+        width:0;
+        height:0;
+        border-width:5px 5px 0;
+        border-style:solid;
+        border-color:black transparent transparent ;
+        position:relative;
+        top:12px;
+        left: 3px;
+    }
+    .w_select .w_span2{
+        width:0;
+        height:0;
+        border-width:0 5px 5px ;
+        border-style:solid;
+        border-color: transparent transparent red;
+        position:relative;
+        top:-12px;
+        left: 3px;
+    }
+    /*场地*/
+    .w_list{
+        width: 100%;
+        display: block;
+    }
+    .w_list_icon{
+        padding: 15px 15px;
+        box-sizing: border-box;
+    }
+    .w_list_icon .img{
+        width: 174px;
+        height: 130px;
+        margin-right: 0;
+    }
+    .w_list_icon .img img{
+        width: 174px;
+        height: 130px;
+        display: block;
+
+    }
+    .w_list_icon_right{
+        width: 430px;
+        float:right;
+        padding-left: 15px;
+        box-sizing: border-box;
+    }
+    .w_list_icon_right p:nth-child(1){
+        font-size: 16px;
+        color: #333333;
+        letter-spacing: -0.03px;
+    }
+    .w_list_icon_right p:nth-child(1) b{
+        font-size: 22px;
+    }
+    .w_list_icon_right p:nth-child(1) span{
+        display: none;
+    }
+    .w_list_icon_right p:nth-child(2){
+       display: none;
+    }
+    .w_list_icon_right p:nth-child(3){
+        display: none;
+    }
+    .w_list_icon_right p:nth-child(4){
+        display: none;
+    }
+    .w_list_icon_right p:nth-child(5){
+        margin-top: 8px;
+    }
+    .w_list_icon_right p:nth-child(5) span{
+        padding:2px 3px;
+        font-size: 12px;
+    }
+    .red{
+        color: #8BA4BA;
+        background: rgba(139,164,186,0.28);
+    }
+    .blue{
+        color: #8BA4BA;
+        background: rgba(139,164,186,0.28);
+    }
+    .pink{
+        color: #8BA4BA;
+        background: rgba(139,164,186,0.28);
+    }
+    .w_list_icon_right p:nth-child(6){
+        font-size: 25px;
+        color: #FB515A;
+        letter-spacing: -0.03px;
+        margin-top:15px;
+        display: block;
+    }
+    .w_list_icon_right p:nth-child(7){
+        display: block;
+        font-size: 16px;
+        color: #999999;
+        letter-spacing: 0px;
+        margin-top:10px;
+    }
+    /*九号*/
+    .w-header{
+        width: 100%;
+        height: 250px;
+        box-sizing: border-box;
+        position: relative;
+        background: #d8d8d8;
+    }
+    /*banner*/
+    .w-inner img{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        z-index: 2;
+        display: block;
+    }
+    .w_juihao_left{
+        width: 640px;
+        padding-left: 15px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .w_juihao_left h1{
+        font-size: 25px;
+        padding-top: 15px;
+        box-sizing: border-box;
+    }
+    .w_jiuhao_list .w-p{
+        margin-top: 20px;
+        float: none;
+        color:  #3A3A3A;
+    }
+    .w_jiuhao_list .w-p ul li{
+        list-style:inside;
+    }
+    .w_jiuhao_list .w-span{
+        float: none;
+        font-weight:bold;
+    }
+    .w_jiuhao_list_left{
+        width: 294px;
+        height: 300px;
+        margin-right: 15px;
+    }
+    .w_jiuhao_list_left img{
+        width: 294px;
+    }
+    .w_jiuhao_list_left div{
+        padding: 0;
+        margin: 0;
+        height: 100px;
+        width: 294px;
+    }
+    .w_jiuhao_list_right{
+        width: 294px;
+        float: left;
+    }
+    .w_jiuhao_tuijian{
+        padding-left: 15px;
+        box-sizing: border-box;
+    }
+    .w_jiuhao_tuijian dl{
+        width: 290px;
+    }
+    .w_jiuhao_tuijian dl dt img{
+        width: 290px;
+    }
+    /*深度解析*/
+    .w-con{
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .w_bottom{
+        border-bottom: 0px;
+    }
+}
+
+
