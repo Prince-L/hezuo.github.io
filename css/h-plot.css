@@ -1,0 +1,805 @@
+
+body{
+    width: 100%;
+}
+/*导航*/
+.h-nav{
+    width: 100%;
+    /*position: relative;*/
+    float: left;
+}
+.h-nav1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 33px;
+    z-index: 999;
+    padding: 20px 0;
+    -webkit-background-color: rgba(0,0,0,0.3);
+    -o-background-color:rgba(0,0,0,0.3);
+    -moz-background-color:rgba(0,0,0,0.3);
+    -ms-background-color:rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.3);
+    float: left;
+}
+.h-nav2{
+    width: 1024px;
+    height: 33px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h-nav-logo{
+    width: 99px;
+    height: 33px;
+    float: left;
+}
+.h-nav-logo a{
+    font-size: 27px;
+    color: #fff;
+    font-weight: bold;
+}
+.h-nav-logo a img{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.h-nav2 ul{
+    float: right;
+}
+.h-nav2 ul li{
+    float: left;
+    margin-left: 50px;
+}
+.h-nav2 ul li a{
+    display: inline-block;
+    height: 33px;
+    line-height: 33px;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+.h-nav2 ul li .icon-dianhua{
+    font-size: 24px;
+    color: #fff;
+}
+.h-nav2 ul li span.select{
+    width:100%;
+    height: 2px;
+    display: block;
+    -webkit-background-color: #fff;
+    -o-background-color:#fff;
+    -moz-background-color:#fff;
+    -ms-background-color:#fff;
+    background-color: #fff;
+}
+.h-nav2 ul li span{
+    width:0;
+    height: 2px;
+    display: block;
+    -webkit-background-color: #fff;
+    -o-background-color:#fff;
+    -moz-background-color:#fff;
+    -ms-background-color:#fff;
+    background-color: #fff;
+}
+/*头部*/
+.h-header{
+    width: 1349px;
+    height: 600px;
+    position: relative;
+    max-height: 600px;
+    min-width: 1000px;
+    overflow: hidden;
+}
+.h-outer{
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    z-index: 1;
+}
+.h-inner{
+    width: 100%;
+    height: 600px;
+    left: 0px;
+    top: 0px;
+}
+.h-inner>img{
+    display: block;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+
+.h-outer>ul{
+    overflow: hidden;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    left:0;
+    bottom: 0;
+}
+.h-outer>ul>li{
+    width: 200px;
+    height: 70px;
+    float: left;
+   background-color:  rgba(0, 0, 0, 0.5);
+}
+.h-outer>ul>li.h-select{
+    background-color: #00C1AF;
+    opacity: 0.9;
+}
+.h-plot-one{
+    opacity: 1;
+    height: 70px;
+    margin: 10px 26px  10px 285px;
+}
+.h-plot-two{
+    opacity: 1;
+    margin: 10px 26px;
+}
+.h-plot-three{
+    opacity: 1;
+    margin: 10px 26px;
+}
+.h-plot-four{
+    opacity: 1;
+    margin: 10px 26px;
+}
+.h-outer>ul>li i{
+    display: inline-block;
+    float: left;
+    width: 54px;
+    height: 54px;
+    margin: 5px 20px 0 ;
+}
+.h-outer>ul>li p{
+    margin: 0;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    line-height: 70px;
+}
+.plot-input{
+    width: 359px;
+    height: 380px;
+    position: absolute;
+    top: 105px;
+    right: 120px;
+}
+.plot-input{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    width: 359px;
+    height: 380px;
+    margin-top: -190px;
+    background-color: rgba(255,255,255,0.95);
+    z-index: 999;
+    background: url(../img/h-img/plot-input.png) 100% 100%;
+}
+.h-plot-input{
+    outline: none;
+    width: 78%;
+    display: block;
+    height: 44px;
+    margin: 0 auto;
+    line-height: 50px;
+    background-color: rgba(255,255,255,0);
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.59);
+    box-shadow: none;
+    border-radius: 4px;
+    margin-top: 11px;
+    color: #999;
+    position: relative;
+    border-radius: 4px;
+    color: #fff;
+    font-family: sans-self;
+}
+.h-plot-name{
+    margin-top: 177px;
+}
+.h-plot-btn{
+    width: 100%;
+    margin: 10px 7px 0;
+    height: 91px;
+    line-height: 71px;
+    text-align: center;
+    color: #00C1AF;
+    border-radius: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    letter-spacing: 4px;
+    background: url(../img/h-img/plot-fiveteen.png);
+    background-size: 100% 100%;
+    background-position: -5px 0px;
+}
+/*内容*/
+.h-plot-cont{
+    width: 100%;
+    height: 3728px;
+}
+/*39项婚礼服务*/
+.h-plot-cont-service{
+    width: 100%;
+    height: 301px;
+    background-color: #fff;
+}
+.h-plot-cont-service>p{
+    font-size: 38px;
+    color: #343434;
+    /*letter-spacing: 1.55px;*/
+    padding: 60px 0 20px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.h-plot-ul{
+    margin: 0;
+    padding-bottom: 47px;
+    margin-left: 5%;
+}
+.h-plot-li{
+    float: left;
+    width: 10%;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    min-height: 120px;
+    vertical-align: top;
+}
+.h-plot-li-cont{
+    display: block;
+    height: 119px;
+    padding-top: 60px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-size: 40px 40px;
+    background: url("../img/h-img/plot-icon-one.png") center 25px no-repeat;
+}
+.h-plot-li:nth-child(2) .h-plot-li-cont{
+    background: url("../img/h-img/plot-icon-two.png") center 25px no-repeat;
+}
+.h-plot-li:nth-child(3) .h-plot-li-cont{
+    background: url("../img/h-img/plot-icon-three.png") center 25px no-repeat;
+}
+.h-plot-li:nth-child(4) .h-plot-li-cont{
+    background: url("../img/h-img/plot-icon-four.png") center 25px no-repeat;
+}
+.h-plot-li:nth-child(5) .h-plot-li-cont{
+    background: url("../img/h-img/plot-number-four.png") center 25px no-repeat;
+}
+.h-plot-li:nth-child(6) .h-plot-li-cont{
+    background: url("../img/h-img/plot-icon-six.png") center 25px no-repeat;
+}
+.h-plot-li:nth-child(7) .h-plot-li-cont{
+    background: url("../img/h-img/plot-icon-sevent.png") center 25px no-repeat;
+}
+.h-plot-li:nth-child(8) .h-plot-li-cont{
+    background: url("../img/h-img/plot-icon-eight.png") center 25px no-repeat;
+}
+.h-plot-li:nth-child(9) .h-plot-li-cont{
+    background: url("../img/h-img/plot-icon-nine.png") center 25px no-repeat;
+}
+.h-plot-li-cont>p{
+    padding-top: 19px;
+    margin: 0;
+    font-size: 14px;
+    color: #343434;
+    letter-spacing: 0px;
+    line-height: 20px;
+}
+.h-plot-cont-list{
+    height: 202px;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: 160px;
+    position: absolute;
+    left: 50%;
+    margin-left: -80px;
+    top: 0;
+    border-top: 2px solid #00C1AF;
+    border-radius: 2px 2px 0px 0px;
+    z-index: 1;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 12px 0px rgba(49,49,93,0.15);
+    border-radius: 2px;
+    display: none;
+}
+.h-plot-cont-p{
+    background-image: url('../img/h-img/plot-icon-one.png');
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: 20px 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.h-plot-li:nth-child(2) .h-plot-cont-p{
+    background-image: url('../img/h-img/plot-icon-two.png');
+}
+.h-plot-li:nth-child(3) .h-plot-cont-p{
+    background-image: url('../img/h-img/plot-icon-three.png');
+}
+.h-plot-li:nth-child(4) .h-plot-cont-p{
+    background-image: url('../img/h-img/plot-icon-four.png');
+}
+.h-plot-li:nth-child(5) .h-plot-cont-p{
+    background-image: url('../img/h-img/plot-number-four.png');
+}
+.h-plot-li:nth-child(6) .h-plot-cont-p{
+    background-image: url('../img/h-img/plot-icon-six.png');
+}
+.h-plot-li:nth-child(7) .h-plot-cont-p{
+    background-image: url('../img/h-img/plot-icon-sevent.png');
+}
+.h-plot-li:nth-child(8) .h-plot-cont-p{
+    background-image: url('../img/h-img/plot-icon-eight.png');
+}
+.h-plot-li:nth-child(9) .h-plot-cont-p{
+    background-image: url('../img/h-img/plot-icon-nine.png');
+}
+.h-plot-cont-list>p{
+  margin:0 0 10px;
+}
+.h-plot-cont-list-text{
+    padding: 0 10px;
+    text-align: left;
+    font-size: 14px;
+}
+/*五大自营部门*/
+.h-plot--cont-NoFive{
+    width: 100%;
+    height: 498px;
+}
+.h-plot-title{
+    font-size: 38px;
+    color: #343434;
+    letter-spacing: 1.55px;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 60px;
+    text-align: center
+}
+.h-plot-NoFive-cont{
+    overflow: hidden;
+    width: 100%;
+    height: 330px;
+}
+.h-plot-NoFive-ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 120%;
+    text-align: center;
+    margin-left: -10%;
+    height: 330px;
+}
+.h-plot-NoFive-li{
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all .4s;
+    margin: 60px 20px 0;
+    background-image: url('../img/h-img/plot-nine.png');
+    background-size: 300px 300px;
+    background-position: center center;
+    box-sizing: border-box;
+}
+.h-plot-NoFive-li-cont{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+    text-align: center;
+}
+.h-plot-NoFive-li-p{
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 1.63px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding-top: 37%;
+}
+.h-plot-NoFive-li-cont>span{
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    border-radius: 1px;
+    background-color: #fff;
+}
+.h-plot-NoFive-li:nth-child(2){
+    background-image: url('../img/h-img/plot-ten.png');
+}
+.h-plot-NoFive-li:nth-child(3){
+    background-image: url('../img/h-img/plot-eleven.png');
+}
+.h-plot-NoFive-li:nth-child(4){
+    background-image: url('../img/h-img/plot-twelve.png');
+}
+.h-plot-NoFive-li:nth-child(5){
+    background-image: url('../img/h-img/plot-thirteen.png');
+}
+ /*手绘*/
+.h-plot-freehand{
+    width: 100%;
+    height: 733px;
+}
+.h-plot-freehand-title{
+    text-align: center;
+    font-size: 38px;
+    color: #343434;
+    letter-spacing: 1.55px;
+    padding: 60px 0 40px;
+}
+.h-plot-freehand-cont{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
+    height: 515px;
+}
+.h-plot-cont-box{
+    width: 100%;
+    height: 515px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.h-plot-cont-img{
+    display: block;
+    width: 100%;
+    height: 515px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.h-plot-cont-img>img{
+    display: block;
+    width: 100%;
+    height: 355px;
+}
+.h-plot-cont-text{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 133px 50px;
+}
+.h-plot-cont-img-title{
+    font-size: 30px;
+    color: #343434;
+    letter-spacing: 1.22px;
+    line-height: 25px;
+}
+.h-plot-cont-img-cont{
+    font-size: 16px;
+    color: #343434;
+    letter-spacing: 0.65px;
+    line-height: 25px;
+}
+.h-plot-cont-left{
+    width: 38px;
+    height: 98px;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    left: 0;
+    top: 30%;
+    text-align: center;
+    font-size: 64px;
+    color: #fff;
+    cursor: pointer;
+}
+.h-plot-cont-right{
+     width: 38px;
+     height: 98px;
+     background-color: rgba(0,0,0,.5);
+     position: absolute;
+     right: 0;
+     top: 30%;
+     text-align: center;
+     font-size: 64px;
+     color: #fff;
+    cursor: pointer;
+ }
+ /*专业服务*/
+.h-plot-specialized{
+    width: 100%;
+    height: 611px;
+    clear: both;
+}
+.h-plot-specialized-title{
+    font-size: 38px;
+    color: #343434;
+    letter-spacing: 1.55px;
+    padding-top: 60px;
+    background-color: #F6F9FC;
+    margin: 0;
+    text-align: center;
+}
+.h-plot-specialized-cont{
+    width: 100%;
+    float: left;
+    background: url('../img/h-img/plot-number.png')  center 150px no-repeat;
+    background-color: #F6F9FC;
+    background-size: 100% 150px;
+    padding-bottom: 50px;
+}
+.h-plot-specialized-ul{
+    width: 820px;
+    height: 393px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    margin-left: 70px;
+}
+.h-plot-specialized-li{
+    background-image: url('../img/h-img/plot-number-one.png');
+    background-repeat: no-repeat;
+    background-size: 113px 113px;
+    background-position: left 40px;
+    padding-top: 200px;
+    margin-left: 10px;
+    float: left;
+    width: 195px;
+    margin-top: 66px;
+}
+.h-plot-specialized-li-cont{
+    background-image: url('../img/h-img/plot-number-bac.-two.png');
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: 10px 10px;
+    padding-left: 60px;
+    margin-left: 10px;
+}
+.h-plot-specialized-t{
+    font-size: 19px;
+    color: #343434;
+    letter-spacing: 0.81px;
+    margin-bottom: 10px;
+}
+.h-plot-specialized-text{
+    font-size: 14px;
+    color: #343434;
+    letter-spacing: 0.57px;
+}
+.h-plot-specialized-li:nth-child(2){
+    background-image: url('../img/h-img/plot-number-three.png');
+}
+.h-plot-specialized-li:nth-child(2) .h-plot-specialized-li-cont{
+    background-image: url('../img/h-img/plot-number-bac.png');
+}
+.h-plot-specialized-li:nth-child(3){
+    background-image: url('../img/h-img/plot-number-two.png');
+}
+.h-plot-specialized-li:nth-child(3) .h-plot-specialized-li-cont{
+    background-image: url('../img/h-img/plot-number-bac.-onepng.png');
+}
+.h-plot-specialized-li:nth-child(4){
+    background-image: url('../img/h-img/plot-sixteen.png');
+}
+.h-plot-specialized-li:nth-child(4) .h-plot-specialized-li-cont{
+    background-image: url('../img/h-img/plot-Twenty.png');
+}
+ /*优秀服务*/
+.h-cooperation{
+    width: 100%;
+    height: 927px;
+}
+.h-cooperation-top-title{
+    text-align: center;
+    font-size: 38px;
+    color: #343434;
+    letter-spacing: 1.55px;
+    padding: 60px 0 40px;
+}
+.h-cooperationa-sma-title{
+    font-size: 18px;
+    color: #999999;
+    letter-spacing: 0.73px;
+    text-align: center;
+    width: 140px;
+    margin: 0 auto;
+    height: 41px;
+    position: relative;
+}
+.h-cooperationa-sma-title>span{
+    position: absolute;
+    bottom: 0;
+    background: #333333;
+    width: 40px;
+    height: 2px;
+    left: 50%;
+    margin-left: -20px;
+}
+.h-cooperation-logos{
+    width: 920px;
+    margin: 0 auto;
+    margin-top: 27px;
+}
+.h-cooperation-logos>img{
+    width: 100%;
+    height: 100%;
+}
+ /*公司动态*/
+.h-company{
+    width: 100%;
+    height: 658px;
+    background: #F6F9FC;
+}
+.h-company-title{
+    font-size: 38px;
+    color: #343434;
+    letter-spacing: 1.55px;
+    text-align: center;
+    padding: 60px 0 40px;
+}
+.h-company-cont{
+    width: 100%;
+    height: 454px;
+}
+.h-company-cont-one{
+    width: 25%;
+    position: relative;
+    float: left;
+}
+.h-company-cont-one>a{
+    display: block;
+}
+.h-company-cont-one>a>img{
+    width: 100%;
+    height: 100%;
+}
+.h-company-cont-t{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    text-align: left;
+}
+.h-company-cont-t>a{
+    font-size: 16px;
+    /* line-height: 44px; */
+    height: 44px;
+    width: 100%;
+    color: #FFFFFF;
+    letter-spacing: 0.65px;
+    width: 100%;
+    display: block;
+    margin: 11px 0;
+}
+
+
+
+
+
+
+ /*底部*/
+.h-footer{
+    width: 1349px;
+    height: 559px;
+    background-color: #3a3a3a;
+}
+.h-footer-cont{
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+}
+.h-footer-top{
+    width: 100%;
+    height: 58px;
+    border-bottom: 1px solid #4c4c4c;
+    margin-bottom: 23px;
+}
+.h-footer-top>a{
+    float: left;
+    margin-left: 12px;
+    line-height: 58px;
+    font-size: 14px;
+    color: #F2F2F2;
+}
+.h-footer-top>span{
+    float: right;
+    margin-right: 12px;
+    font-size: 18px;
+    color: #FF6F6F;
+    line-height: 58px;
+}
+.h-footer-center{
+    width: 100%;
+    height: 283px;
+    border-bottom: 1px solid #4c4c4c;
+}
+.h-foot-nav{
+    width: 90px;
+    margin-right: 154px;
+}
+.h-footer-center1{
+    height: 240px;
+    float: left;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.h-footer-center1>h3{
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 14px;
+    margin-left: 12px;
+}
+.h-footer-center1>a,.h-footer-center1>p{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 14px;
+    margin-right: 8px;
+    opacity: 0.69;
+    margin-left: 12px;
+}
+.h-foot-nav>a:hover{
+    opacity:1;
+}
+.h-foot-cont{
+    width: 330px;
+}
+.h-foot-about{
+    width: 211px;
+    float: right;
+    display: block;
+    position: relative;
+}
+.h-foot-about1>a{
+    opacity: 1;
+    margin-right: 20px;
+    position: relative;
+    top: 3px;
+}
+.erweima{
+    position: absolute;
+    top: 80px;
+    left: -48px;
+    display: none;
+}
+.h-footer-copy{
+    box-sizing: border-box;
+    width: 1024px;
+    height: 76px;
+    padding: 14px 12px 28px 12px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    line-height: 18px;
+    background-color: #3A3A3A;
+    z-index: 2;
+    border-top: 1px solid rgba(151,151,151,0.2);
+}
+.h-footer-copy>p{
+    max-width: 350px;
+    text-align: left;
+    opacity: .4;
+    float: left;
+}
+
+
+
+
+
+
+
+

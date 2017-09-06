@@ -1,0 +1,176 @@
+try {
+    (function(a,b,c,d){
+    a[c]=function(){a[c]['ar']=a[c]['ar']||[];a[c]['ar'].push(arguments);};
+    var s=b.createElement('script');s.async = 1;s.defer=1;s.src='//t.agrantsem.com/js/agt.js';
+    var r=b.getElementsByTagName('script')[0];r.parentNode.insertBefore(s,r);
+    })(window,document,'_agtjs','script');
+    _agtjs('init','AG_728770_LYUW','$website$');
+    _agtjs('trackPv');
+    
+    var agtGetTopUrl = function() {
+        var win=window;
+        var doc=document;
+        var topwin=window.top || window.parent || window;
+    
+        var localUrl = "";
+        try{
+            localUrl=topwin.location.href;
+        }catch(err){
+            localUrl=doc.referrer || win.location.href;
+        }
+        return localUrl;
+    };
+    var agtTopUrl = agtGetTopUrl();
+    
+    var agtCheckString = function(regular, str) {
+        var re = new RegExp(regular);
+        return re.test(str);
+    };
+    
+    var agtBindClick = function(element,fn){
+        if(element.attachEvent){
+            element.attachEvent('onclick',fn);
+        }else if(element.addEventListener){
+            element.addEventListener('click',fn);
+        }
+    };
+    
+    var agtBindEventByTimer = function(selector,fn){
+        var interval=setInterval(function(){
+        	if(!_agtjs.Sizzle){return}
+            var elements=_agtjs.Sizzle(selector);
+            if(elements && elements.length>0){
+                clearInterval(interval);
+                for(var i in elements){
+                	agtBindClick(elements[i],fn);
+                }
+            }
+        },1000);
+    };
+    
+    function agt_205(){
+		try{
+			var name = "";
+			var namee = document.getElementsByClassName('revolution-name revolution-input')[0];
+			if(namee === null || namee === undefined)
+			{
+				namee = document.getElementById("bb-name");
+				name = namee.value;
+			}else
+			{
+				name = namee.value;
+			}
+			
+			var phoneNum = "";
+			var phonee = document.getElementsByClassName('revolution-tel revolution-input')[0];
+			if(phonee === null || phonee === undefined)
+			{
+				phonee = document.getElementById("bb-tel");
+				phoneNum = phonee.value;
+			}
+			else
+			{
+				phoneNum = phonee.value;
+			}
+			if(name !== null && name !== undefined && name !== '' && phoneNum !== null && phoneNum !== undefined && phoneNum !== '')
+				_agtjs('loadEvent',{atsev:205,'atscrj':'$留言板$'});
+        }catch(e){}
+    }
+    if (agtCheckString('com.cn',agtTopUrl)) {
+        agtBindEventByTimer('#revolution-send',agt_205);
+		agtBindEventByTimer('.bb-submit',agt_205);
+    }
+
+    function agt_102(){
+        _agtjs('loadEvent',{atsev:102,'atssum':'$订单金额$','atsnum':'$订单号$'});
+    }
+
+    function agt_204(){
+        _agtjs('loadEvent',{atsev:204,'atsfpv':'$拨打电话$'});
+    }
+	
+	function agt_206(){
+		try{
+			var name = "";
+			var phoneNum = "";
+			// rev box.
+			name = _agtjs.Sizzle('section.revBox input#name')[0].value;
+			phoneNum = _agtjs.Sizzle('section.revBox input#tel')[0].value;
+			if(name !== null && name !== undefined && name !== '' && phoneNum !== null && phoneNum !== undefined && phoneNum !== '')
+			{
+				_agtjs('loadEvent',{atsev:206,'atsahq':'$电话$'});
+				return;
+			}
+			// mask box.
+			name = _agtjs.Sizzle('section.maskBox input#name')[0].value;
+			phoneNum = _agtjs.Sizzle('section.maskBox input#tel')[0].value;
+			if(name !== null && name !== undefined && name !== '' && phoneNum !== null && phoneNum !== undefined && phoneNum !== '')
+			{
+				_agtjs('loadEvent',{atsev:206,'atsahq':'$电话$'});
+				return;
+			}
+			// last box
+			name = _agtjs.Sizzle('section.lastBox input#name')[0].value;
+			phoneNum = _agtjs.Sizzle('section.lastBox input#tel')[0].value;
+			if(name !== null && name !== undefined && name !== '' && phoneNum !== null && phoneNum !== undefined && phoneNum !== '')
+			{
+				_agtjs('loadEvent',{atsev:206,'atsahq':'$电话$'});
+				return;
+			}
+		}catch(e){}
+    }
+	
+	if (agtCheckString('m.awedding.com.cn/about',agtTopUrl)) {
+        agtBindEventByTimer('p.submitOne', agt_206);
+		agtBindEventByTimer('p.maskSubmit', agt_206);
+		agtBindEventByTimer('p.submitLast', agt_206);
+    }
+
+    function agt_101(){
+        _agtjs('loadEvent',{atsev:101,'atsusr':'$用户名$'});
+    }
+    if (agtCheckString('m.awedding.com.cn/yijiesubmit',agtTopUrl)) {
+        agtBindEventByTimer('a.submit.allow',agt_101);
+    }
+	
+	if (agtCheckString('m.awedding.com.cn/about',agtTopUrl)) {
+		agtBindEventByTimer('section.movieBox p.mesBtn',agt_101);
+        agtBindEventByTimer('section.vsBox p.mesBtn',agt_101);
+		agtBindEventByTimer('a.chat',agt_101);
+    }
+
+    function agt_201(){
+        _agtjs('loadEvent',{atsev:201,'atsspf':'$在线咨询$'});
+    }
+    if (agtCheckString('m.awedding.com.cn',agtTopUrl)) {
+        agtBindEventByTimer('a.chat',agt_201);
+    }
+    if (agtCheckString('com.cn',agtTopUrl)) {
+        agtBindEventByTimer('#tool-consult',agt_201);
+		agtBindEventByTimer('#service',agt_201);
+    }
+
+    function agt_200(){
+        _agtjs('loadEvent',{atsev:200,'atslmn':'$在线预约$'});
+    }
+    if (agtCheckString('com.cn',agtTopUrl)) {
+        agtBindEventByTimer('#popsub',agt_200);
+		agtBindEventByTimer('#sub',agt_200);
+    }
+
+    function agt_203(){
+        _agtjs('loadEvent',{atsev:203,'atssrv':'$M站拨打电话$'});
+    }
+    if (agtCheckString('m.awedding.com.cn',agtTopUrl)) {
+        agtBindEventByTimer('a.tel',agt_203);
+    }
+
+    function agt_202(){
+        _agtjs('loadEvent',{atsev:202,'atsjpm':'$线索量$'});
+    }
+
+
+
+} catch (err) {
+    console.log('err:' + err);
+}

@@ -2,312 +2,270 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>案例</title>
+    <!--<link rel="stylesheet" href="../css/h-index.css"/>-->
     <link rel="stylesheet" href="../css/index.css"/>
+    <link rel="stylesheet" href="../css/h-moblie-index.css"/>
+
+    <!--<link rel="stylesheet" href="../css/index.css"/>-->
     <link rel="stylesheet" href="../css/reset.css"/>
     <link rel="stylesheet" href="../css/case.css"/>
+<<<<<<< HEAD
+    <!--<script src="../js/index.js"></script>-->
+    <script src="../js/mobile-util.js"></script>
+=======
+    <script src="../js/angular.min.js"></script>
+>>>>>>> origin/master
     <script src="../js/jquery-1.8.3.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
     <script src="../js/case.js"></script>
     <link rel="stylesheet" type="text/css" href="../css/font_p2t9isy0eqjxxbt9/iconfont.css">
 </head>
 <body>
+<<<<<<< HEAD
+<div class="big-box">
+    <!--导航-->
+    <div class="h-nav">
+        <div class="h-nav1">
+            <div class="h-nav2">
+                <div class="h-nav-logo">
+                    <a href="../index.html">美薇亭</a>
+                </div>
+                <ul class="h-nav-ul">
+                    <li class="h-nav-ul-li">
+                        <a href="../index.html" target="_self">首页</a>
+                        <span class="select"></span>
+                    </li>
+                    <li class="h-nav-ul-li">
+                        <a href="../html/z.html" target="_self">案例</a>
+                        <span></span>
+                    </li>
+                    <li class="h-nav-ul-li">
+                        <a href="../html/w.html" target="_self">场地</a>
+                        <span></span>
+                    </li>
+                    <li class="h-nav-ul-li">
+                        <a href="../html/g.html" target="_self">攻略</a>
+                        <span></span>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-dianhua"></i>
+                        <a>400-0019-456</a>
+                        <span></span>
+                    </li>
+                </ul>
+=======
 <!--导航-->
 <div class="h-nav">
     <div class="h-nav1">
         <div class="h-nav2">
             <div class="h-nav-logo">
-                <a href="../index.html"><img src="../img/h-img/logo.png" alt=""/></a>
+                <a href="../index.html">美薇亭</a>
+>>>>>>> origin/master
             </div>
-            <ul class="h-nav-ul">
-                <li class="h-nav-ul-li">
-                    <a href="../index.html" target="_self">首页</a>
-                    <span class="select"></span>
-                </li>
-                <li class="h-nav-ul-li">
-                    <a href="../html/z.html" target="_self">案例</a>
-                    <span></span>
-                </li>
-                <li class="h-nav-ul-li">
-                    <a href="../html/w.html" target="_self">场地</a>
-                    <span></span>
-                </li>
-                <li class="h-nav-ul-li">
-                    <a href="../html/g.html" target="_self">攻略</a>
-                    <span></span>
-                </li>
-                <li>
-                    <i class="iconfont icon-dianhua"></i>
-                    <a>400-0019-456</a>
-                    <span></span>
-                </li>
-            </ul>
         </div>
     </div>
-</div>
-<!--内容-->
+    <!--内容-->
     <div class="zy-case z-big z-clear">
         <div class="zy-caseArea z-center">
 
             <!-- 跳转按钮-->
             <div class="z-skip">
-                <span><a href="">首页</a></span>
-                <span><a href="">案例</a></span>
+                <span><a href="../index.html">首页</a></span>
+                <span><a href="z.html">案例</a></span>
             </div>
             <div class="z-nav">
                 <div class="z-navColor z-navSize">
+<<<<<<< HEAD
+                    <a href="javascript:;" class="span">色系</a>
+                    <a href="javascript:;" onclick="color(6)" class="default z-active">不限</a>
+                    <a href="javascript:;" onclick="color(1)">红色系</a>
+                    <a href="javascript:;" onclick="color(2)">粉色系</a>
+                    <a href="javascript:;" onclick="color(3)">白色系</a>
+                    <a href="javascript:;" onclick="color(4)">绿色系</a>
+                    <a href="javascript:;" onclick="color(5)">黄/金色系</a>
+                    <a href="javascript:;" onclick="color(6)">蓝/紫色系</a>
+                </div>
+                <div class="z-navColor z-navType">
+                    <a href="javascript:;" class="span">类型</a>
+                    <a href="javascript:;" onclick="classify(4)" class="default z-active">不限</a>
+                    <a href="javascript:;" onclick="classify(2)">宴会厅</a>
+                    <a href="javascript:;" onclick="classify(3)">户外草坪</a>
+                    <a href="javascript:;" onclick="classify(4)">中式</a>
+                    <a href="javascript:;" onclick="classify(5)">海岛</a>
+                    <a href="javascript:;" onclick="classify(6)">教堂</a>
+                    <a href="javascript:;" onclick="classify(5)">主题派对</a>
+                    <a href="javascript:;" onclick="classify(4)">森系</a>
+                    <a href="javascript:;" onclick="classify(3)">浪漫</a>
+                    <a href="javascript:;" onclick="classify(2)">清新</a>
+                    <a href="javascript:;" onclick="classify(1)">奢华</a>
+=======
                     <span>色系</span>
-                    <a href="">不限</a>
-                    <a href="">红色系</a>
-                    <a href="">粉色系</a>
-                    <a href="">白色系</a>
-                    <a href="">绿色系</a>
-                    <a href="">黄/金色系</a>
-                    <a href="">蓝/紫色系</a>
+                    <a href="javascript:;" onclick="botn()">不限</a>
+                    <a href="javascript:;" onclick="han(1)">红色系</a>
+                    <a href="javascript:;" onclick="han(2)">粉色系</a>
+                    <a href="javascript:;" onclick="han(3)">白色系</a>
+                    <a href="javascript:;" onclick="han(4)">绿色系</a>
+                    <a href="javascript:;" onclick="han(5)">黄/金色系</a>
+                    <a href="javascript:;" onclick="han(6)">蓝/紫色系</a>
                 </div>
                 <div class="z-navColor z-navType">
                     <span>类型</span>
-                    <a href="">不限</a>
-                    <a href="">宴会厅</a>
-                    <a href="">户外草坪</a>
-                    <a href="">中式</a>
-                    <a href="">海岛</a>
-                    <a href="">教堂</a>
-                    <a href="">主题派对</a>
-                    <a href="">森系</a>
-                    <a href="">浪漫</a>
-                    <a href="">清新</a>
-                    <a href="">奢华</a>
+                    <a href="javascript:;" onclick="botn()">不限</a>
+                    <a href="javascript:;" onclick="pink(2)">宴会厅</a>
+                    <a href="javascript:;" onclick="pink(3)">户外草坪</a>
+                    <a href="javascript:;" onclick="pink(4)">中式</a>
+                    <a href="javascript:;" onclick="pink(5)">海岛</a>
+                    <a href="javascript:;" onclick="pink(6)">教堂</a>
+                    <a href="javascript:;" onclick="pink(5)">主题派对</a>
+                    <a href="javascript:;" onclick="pink(4)">森系</a>
+                    <a href="javascript:;" onclick="pink(3)">浪漫</a>
+                    <a href="javascript:;" onclick="pink(2)">清新</a>
+                    <a href="javascript:;" onclick="pink(1)">奢华</a>
+>>>>>>> origin/master
                 </div>
             </div>
         </div>
     </div>
     <div class="z-caseCell z-big z-clear">
         <div class="z-caseCellArea z-center">
-            <div class="z-padding">
-                <div class="z-chunk z-left">
-                    <div class="z-maskFont">
-                        <p>秦凯&何姿西安婚礼</p>
-                        <p>高雅灰+轻奢粉，婚礼围绕「涟漪」这一主题，整体呈现了“流动的水”这一概念。</p>
-                    </div>
-                    <div class="z-delay">
-                        <p>酒店  西安豪享来温德姆至尊酒店</p>
-                        <p>嘉宾  100人以下</p>
-                    </div>
-                    <img src="../img/z-img/z-personB.jpg" alt=""/>
-                    <div class="z-mask"></div>
-                </div>
-                <div class="z-chunk z-left">
-
-                    <div class="z-maskFont">
-                        <p>Swansea 天鹅之恋</p>
-                        <p>如何在不出现任何一只天鹅的前提下演绎天鹅之恋...</p>
-                    </div>
-                    <div class="z-delay">
-                        <p>酒店  湖北莫愁湖国际大酒店</p>
-                        <p>嘉宾  300人以上</p>
-                    </div>
-                    <img src="../img/z-img/z-personC.jpg" alt=""/>
-                    <div class="z-mask"></div>
-                </div>
-                <div class="z-chunk z-left">
-                    <div class="z-maskFont">
-                        <p>裸心谷森系婚礼</p>
-                        <p>104个小时，1200公里，13个伙伴。在莫干山裸心谷，一场前所未有的深森系婚礼</p>
-                    </div>
-                    <div class="z-delay">
-                        <p>酒店  莫干山奢华度假村 | 裸心谷</p>
-                        <p>嘉宾  100人以下</p>
-                    </div>
-                    <img src="../img/z-img/z-personE.jpg" alt=""/>
-                    <div class="z-mask"></div>
-                </div>
-                <div class="z-chunk z-left">
-                    <div class="z-maskFont">
-                        <p>欧阳娜娜的梦想王国</p>
-                        <p>欧阳娜娜说，25岁要在这个梦幻场景里结婚！</p>
-                    </div>
-                    <div class="z-delay">
-                        <p>酒店  三里屯CHAO酒店</p>
-                        <p>嘉宾  100人以下</p>
-                    </div>
-                    <img src="../img/z-img/z-personF.jpg" alt=""/>
-                    <div class="z-mask"></div>
-                </div>
-                <div class="z-chunk z-left">
-                    <div class="z-maskFont">
-                        <p>朝云</p>
-                        <p>以新娘英文名——Stephanie在希腊语里“皇冠”、“花环”的寓意来进行创作</p>
-                    </div>
-                    <div class="z-delay">
-                        <p>酒店  三亚海棠湾威斯汀酒店</p>
-                        <p>嘉宾  100人以下</p>
-                    </div>
-                    <img src="../img/z-img/z-personA.jpg" alt=""/>
-                    <div class="z-mask"></div>
-                </div>
-                <div class="z-chunk z-left">
-                    <div class="z-maskFont">
-                        <p>拥抱太阳的月亮</p>
-                        <p>复古的红色玫瑰、缠绑的麻绳、粗糙的树皮、翻倒的木制酒桶……</p>
-                    </div>
-                    <div class="z-delay">
-                        <p>酒店  北京东升汇文化园林酒店</p>
-                        <p>嘉宾  100人以下</p>
-                    </div>
-                    <img src="../img/z-img/z-personG.jpg" alt=""/>
-                    <div class="z-mask"></div>
-                </div>
-                <div class="z-chunk z-left">
-                    <div class="z-maskFont">
-                        <p>春の良源</p>
-                        <p>婚礼仪式中，设计了种小树苗的环节，寓意新人的爱情可以长久深厚。</p>
-                    </div>
-                    <div class="z-delay">
-                        <p>酒店  蔓兰酒店</p>
-                        <p>嘉宾  100-150人</p>
-                    </div>
-                    <img src="../img/z-img/z-water.jpg" alt=""/>
-                    <div class="z-mask"></div>
-                </div>
-                <div class="z-chunk z-left">
-                    <div class="z-maskFont">
-                        <p>情书</p>
-                        <p>他说，最骄傲的事就是娶到了高中前座位的她……</p>
-                    </div>
-                    <div class="z-delay">
-                        <p>酒店  秦皇岛国际酒店</p>
-                        <p>嘉宾  300人以上</p>
-                    </div>
-                    <img src="../img/z-img/z-happy.jpg" alt=""/>
-                    <div class="z-mask"></div>
-                </div>
-                <div class="z-chunk z-left">
-                    <div class="z-maskFont">
-                        <p>爱的指纹密码</p>
-                        <p>带着伴郎团热舞，他就是微博热搜中那种“国外才有的新郎”！</p>
-                    </div>
-                    <div class="z-delay">
-                        <p>酒店  健壹景园</p>
-                        <p>嘉宾  100-150人</p>
-                    </div>
-                    <img src="../img/z-img/z-sun.jpg" alt=""/>
-                    <div class="z-mask"></div>
-                </div>
-                <div class="z-chunk z-left">
-                    <div class="z-maskFont">
-                        <p>教堂白兰香许诺</p>
-                        <p>浮世流光，百媚成池。爱人的灵魂，是一座城池，只能住进至此一人</p>
-                    </div>
-                    <div class="z-delay">
-                        <p>酒店  华彬庄园</p>
-                        <p>嘉宾  100-150人</p>
-                    </div>
-                    <img src="../img/z-img/z-kiss.jpg" alt=""/>
-                    <div class="z-mask"></div>
-                </div>
-                <div class="z-chunk z-left">
-                    <div class="z-maskFont">
-                        <p>青葱年华生日宴</p>
-                        <p>灵动的青绿叶材，构成了带着蓬勃青葱气息的立体桌花，让一场生日宴别具味道</p>
-                    </div>
-                    <div class="z-delay">
-                        <p>酒店  丝路驿站餐厅</p>
-                        <p>嘉宾  100人以下</p>
-                    </div>
-                    <img src="../img/z-img/z-chair.jpg" alt=""/>
-                    <div class="z-mask"></div>
-                </div>
-                <div class="z-chunk z-left">
-                    <div class="z-maskFont">
-                        <p>爱的箴言</p>
-                        <p>“爱的箴言”寓意忠贞的爱，莫比乌斯环寓意无限的爱</p>
-                    </div>
-                    <div class="z-delay">
-                        <p>酒店  三亚亚龙湾瑞吉酒店</p>
-                        <p>嘉宾  100人以下</p>
-                    </div>
-                    <img src="../img/z-img/z-cub.jpg" alt=""/>
-                    <div class="z-mask"></div>
-                </div>
-                <div class="z-chunk z-left">
-                    <div class="z-maskFont">
-                        <p>一眼万年</p>
-                        <p>浮世流光，百媚成池。爱人的灵魂，是一座城池，只能住进至此一人</p>
-                    </div>
-                    <div class="z-delay">
-                        <p>酒店  丽晶酒店</p>
-                        <p>嘉宾  150-200人</p>
-                    </div>
-                    <img src="../img/z-img/z-pink.jpg" alt=""/>
-                    <div class="z-mask"></div>
-                </div>
-                <div class="z-chunk z-left">
-                    <div class="z-maskFont">
-                        <p>Happy Party</p>
-                        <p>在三亚的海边搭建起清新的小花亭，把婚礼办成一场欢乐的大派对</p>
-                    </div>
-                    <div class="z-delay">
-                        <p>酒店  金茂三亚亚龙湾丽思卡尔顿酒店</p>
-                        <p>嘉宾  100-150人</p>
-                    </div>
-                    <img src="../img/z-img/z-flower.jpg" alt=""/>
-                    <div class="z-mask"></div>
-                </div>
-                <div class="z-chunk z-left">
-                    <div class="z-maskFont">
-                        <p>熹微</p>
-                        <p>婚礼在她们的心中是属于自己的节日，更是一场爱情的洗礼。</p>
-                    </div>
-                    <div class="z-delay">
-                        <p>酒店  泰山饭店</p>
-                        <p>嘉宾  300人以上</p>
-                    </div>
-                    <img src="../img/z-img/z-shine.jpg" alt=""/>
-                    <div class="z-mask"></div>
-                </div>
-                <div class="z-chunk z-left">
-                    <div class="z-maskFont">
-                        <p>Honey 梦</p>
-                        <p>白色层层紧扣的圆形架构搭建而成的仪式背景，繁花缠绕成环的伏地花艺路引……</p>
-                    </div>
-                    <div class="z-delay">
-                        <p>酒店  御园汇</p>
-                        <p>嘉宾  100-150人</p>
-                    </div>
-                    <img src="../img/z-img/z-circle.jpg" alt=""/>
-                    <div class="z-mask"></div>
-                </div>
-                <div class="z-chunk z-left">
-                    <div class="z-maskFont">
-                        <p>达西花园</p>
-                        <p>马车、风笛、四重奏，这场婚礼让人想起达西先生的美丽花园。</p>
-                    </div>
-                    <div class="z-delay">
-                        <p>酒店  鸿禧高尔夫</p>
-                        <p>嘉宾  300人以上</p>
-                    </div>
-                    <img src="../img/z-img/z-pflower.jpg" alt=""/>
-                    <div class="z-mask"></div>
-                </div>
-                <div class="z-chunk z-left">
-                    <div class="z-maskFont">
-                        <p>Secret Garden</p>
-                        <p>透过金色的花园大门，充满绿意的秘密花园在阳光下闪耀。</p>
-                    </div>
-                    <div class="z-delay">
-                        <p>酒店  北湖九号</p>
-                        <p>嘉宾</p>
-                    </div>
-                    <img src="../img/z-img/z-shine.jpg" alt=""/>
-                    <div class="z-mask"></div>
-                </div>
+<<<<<<< HEAD
+            <div class="z-padding box" >
             </div>
 
         </div>
     </div>
+    <div class="z-big empty z-clear">
 
-<div class="z-big empty z-clear">
+    </div>
+    <!--底部-->
+    <div class="h-footer">
+        <div class="h-footer-cont">
+            <div class="h-footer-top">
+                <a href="../index.html">首页</a>
+                <span>全国热线：400-0019-456</span>
+            </div>
+            <div class="h-footer-center">
+                <div class="h-foot-nav h-footer-center1">
+                    <h3>网址导航</h3>
+                    <a href="../html/z.html">场地</a>
+                    <a href="../html/w.html">案例</a>
+                    <a href="../html/g.html">攻略</a>
+                    <a href="../html/h/h-plot.html">婚礼策划</a>
+                    <a href="../html/h/h-Set.html">婚礼套系</a>
+                    <a href="../html/h/h-plot.html">关于美薇亭</a>
+                </div>
+                <div class="h-foot-cont h-footer-center1">
+                    <h3>联系方式</h3>
+                    <p>客服微信：13581638551</p>
+                    <p>商务合作：hezuo@awedding.com.cn</p>
+                    <p>服务时间：周一至周日 10:00-19:00</p>
+                    <p>地址：北京东城区东四十条94号亮点设计中心一层</p>
+                </div>
+                <div class="h-foot-about h-footer-center1">
+                    <h3>关注我们</h3>
+                    <div class="h-foot-about1">
+                        <a href="javascript:;" class="h-foot-about1-a">
+                            <img src="../img/h-img/weixin.png" alt="美薇亭微信公众号"/>
+                        </a>
+                        <a href="http://weibo.com/MEIWEITINGWEDDING">
+                            <img src="../img/h-img/weibo.png" alt="美薇亭官方微博"/>
+                        </a>
+                        <div class="erweima">
+                            <img src="../img/h-img/erweima.png" alt="美薇亭APP下载"/>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+            <div class="h-footer-copy">
+                <p>
+
+                    Copyright @ 2006-2017 京ICP备11048047号-3
+                    <br/>
+
+                    美薇亭（北京）文化发展有限公司 版权所有
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+<div class="big-box-phone z-left">
+    <div class="big-box-phone-b">
+        <!-- 内容-->
+
+        <div class="z-cont22 z-center">
+             <div class="listTab">
+                <div class="z-btn z-clear">
+                    <img class="box-sizing" src="../img/z-img/z-boxshine.jpg" alt=""/>
+                    <!--<span class="z-lBtn z-left">不限</span>-->
+                    <!--<span class="z-lBtn z-right">不限</span>-->
+                    <div class="z-lBtn z-left">
+                        <n>不限</n> <img src="../img/z-img/z-btn.jpg" alt=""/>
+                    </div>
+                    <div class="z-rBtn z-right">
+                        <n>不限</n> <img src="../img/z-img/z-btn.jpg" alt=""/>
+                    </div>
+                </div>
+
+                <div class="z-zlistLeft">
+                    <a href="javascript:;" onclick="color(6)" class="default z-red">不限</a>
+                    <a href="javascript:;" onclick="color(1)">红色系</a>
+                    <a href="javascript:;" onclick="color(2)">粉色系</a>
+                    <a href="javascript:;" onclick="color(3)">白色系</a>
+                    <a href="javascript:;" onclick="color(4)">绿色系</a>
+                    <a href="javascript:;" onclick="color(5)">黄/金色系</a>
+                    <a href="javascript:;" onclick="color(6)">蓝/紫色系</a>
+                </div>
+                <div class="z-zlistRight">
+                    <a href="javascript:;" onclick="classify(4)" class="default z-red">不限</a>
+                    <a href="javascript:;" onclick="classify(2)">宴会厅</a>
+                    <a href="javascript:;" onclick="classify(3)">户外草坪</a>
+                    <a href="javascript:;" onclick="classify(4)">中式</a>
+                    <a href="javascript:;" onclick="classify(5)">海岛</a>
+                    <a href="javascript:;" onclick="classify(6)">教堂</a>
+                    <a href="javascript:;" onclick="classify(5)">主题派对</a>
+                    <a href="javascript:;" onclick="classify(4)">森系</a>
+                    <a href="javascript:;" onclick="classify(3)">浪漫</a>
+                    <a href="javascript:;" onclick="classify(2)">清新</a>
+                    <a href="javascript:;" onclick="classify(1)">奢华</a>
+                </div>
+            </div>
+
+            <div class="z-photocase">
+                <div class="z-padding box" >
+
+                </div>
+=======
+            <div class="z-padding" id="box">
+>>>>>>> origin/master
+            </div>
+
+
+
+<<<<<<< HEAD
+
+            <!-- 底部-->
+            <div class="h-phone-foot">
+                <div class="h-phone-foot-img">
+                    <img src="../img/h-img/h-phone-weixin.png" alt=""/>
+                    <img src="../img/h-img/h-phone-weibo.png" alt=""/>
+                </div>
+                <div class="h-phone-foot-text">
+                    <p>
+                        Copyright @ 2006-2017京ICP备11048047号-3<br/>
+                        美薇亭（北京）文化发展有限公司 版权所有
+                    </p>
+                </div>
+=======
 </div>
 <!--底部-->
 <div class="h-footer">
@@ -322,45 +280,1241 @@
                 <a href="../html/z.html">场地</a>
                 <a href="../html/w.html">案例</a>
                 <a href="../html/g.html">攻略</a>
-                <a href="../html/h/h-cehua.html">婚礼策划</a>
-                <a href="../html/h/h-taoxi.html">婚礼套系</a>
+                <a href="h/h-plot.html">婚礼策划</a>
+                <a href="h/h-Set.html">婚礼套系</a>
                 <a href="../html/h/h-about.html">关于美薇亭</a>
+>>>>>>> origin/master
             </div>
-            <div class="h-foot-cont h-footer-center1">
-                <h3>联系方式</h3>
-                <p>客服微信：13581638551</p>
-                <p>商务合作：hezuo@awedding.com.cn</p>
-                <p>服务时间：周一至周日 10:00-19:00</p>
-                <p>地址：北京东城区东四十条94号亮点设计中心一层</p>
+            <!-- 右边固定-->
+            <div class="h-phone-right">
             </div>
-            <div class="h-foot-about h-footer-center1">
-                <h3>关注我们</h3>
-                <div class="h-foot-about1">
-                    <a href="javascript:;" class="h-foot-about1-a">
-                        <img src="../img/h-img/weixin.png" alt="美薇亭微信公众号"/>
-                    </a>
-                    <a href="http://weibo.com/MEIWEITINGWEDDING">
-                        <img src="../img/h-img/weibo.png" alt="美薇亭官方微博"/>
-                    </a>
-                    <div class="erweima">
-                        <img src="../img/h-img/erweima.png" alt="美薇亭APP下载"/>
+        </div>
+
+        <div class="h-nav">
+            <div class="h-nav1">
+                <div class="h-nav2">
+                    <div class="h-nav-logo">
+                        <img src="../img/h-img/h-phone.png" alt="" class="h-phone"/>
+                        <a href="../index.html">
+                            <img src="../img/h-img/logo.png" alt=" " class="h-PC"/>
+                        </a>
                     </div>
                 </div>
             </div>
-
         </div>
-        <div class="h-footer-copy">
-            <p>
 
-                Copyright @ 2006-2017 京ICP备11048047号-3
-                <br/>
-
-                美薇亭（北京）文化发展有限公司 版权所有
-
-            </p>
-        </div>
+   </div>
+    <!--侧边栏-->
+    <div class="h-phone-div">
+        <a href="../index.html">首页</a>
+        <a href="../html/z.html">案例</a>
+        <a href="../html/w.html">场地</a>
+        <a href="../html/g.html">攻略</a>
+        <a href="../html/w-about.html">关于美薇婷</a>
     </div>
 </div>
 </body>
 <script src="../js/index.js"></script>
+<script>
+<<<<<<< HEAD
+var box=document.querySelector('.z-padding');
+var r=document.querySelector('.z-rBtn n');
+var l=document.querySelector('.z-lBtn n');
+
+$('.z-zlistRight a').click(function(){
+
+    $('.z-zlistRight a').eq($(this).index()).addClass('z-red').siblings().removeClass('z-red');
+         r.innerHTML = this.innerHTML;
+
+        $('.z-zlistRight').hide()
+
+})
+
+$('.z-zlistLeft  a').click(function(){
+
+    $('.z-zlistLeft a').eq($(this).index()).addClass('z-red').siblings().removeClass('z-red');
+
+  l.innerHTML = this.innerHTML;
+
+ $('.z-zlistLeft').hide()
+
+})
+$('.z-lBtn').click(function(){
+     $('.z-zlistRight').hide()
+    $('.z-zlistLeft').show()
+})
+$('.z-rBtn').click(function(){
+    $('.z-zlistLeft').hide()
+    $('.z-zlistRight').show()
+})
+
+
+
+
+ $('.z-navSize a').click(function () {
+            $('.z-navSize a').eq($(this).index()).addClass('z-active').siblings().removeClass('z-active');
+        })
+
+ $('.z-navType a').click(function () {
+            $('.z-navType a').eq($(this).index()).addClass('z-active').siblings().removeClass('z-active');
+        })
+
+
+    var str="";
+	$.ajax({
+        type:"get",
+        url:"../json/json.json",
+        success:function(data){
+            <!--console.log(data)-->
+            data.item.map(function(x,i){
+                str='<a href="z/hexi.html" class="z-chunk z-left" onmouseover="a()" onmouseout="b()">'+
+                '<div class="z-maskFont">'+
+                '<p>'+x.title+'</p>'+
+                '<p>'+x.description+'</p>'+
+                '</div>'+
+                '<div class="z-delay">'+
+                '<p>'+x.hotel+'</p>'+
+                '<p>'+x.peoplenumber+'</p>'+
+                '</div>'+
+                '<img src=" '+ x.img +' ">'+
+                '<div class="z-mask"></div>'+
+                '</a>'+
+                $(str).appendTo('.z-padding')
+            })
+        },
+        error:function(){
+            alert("失败")
+        }
+    })
+     var arr3=[];
+     function color(a){
+        <!--$('.z-navSize a').eq($(this).index()).addClass('z-active').siblings().removeClass('z-active');-->
+         $.ajax({
+             type:"get",
+             url:"../json/json.json",
+             success:function(data){
+                 var arr2=data.item;
+                 <!--console.log(arr2)-->
+                 str='';
+                 arr2=[];
+                 <!--console.log(data)-->
+                 for(var i=0;i<data.item.length;i++){
+                     if(data.item[i].id==a){
+                         str+='<a href="z/hexi.html" class="z-chunk z-left" onmouseover="a()" onmouseout="b()">'+
+                              '<div class="z-maskFont">'+
+                              '<p>'+data.item[i].title+'</p>'+
+                              '<p>'+data.item[i].description+'</p>'+
+                              '</div>'+
+                              '<div class="z-delay">'+
+                              '<p>'+data.item[i].hotel+'</p>'+
+                              '<p>'+data.item[i].peoplenumber+'</p>'+
+                              '</div>'+
+                              '<img src=" '+ data.item[i].img +' ">'+
+                              '<div class="z-mask"></div>'+
+                              '</a>';
+                              arr3.push(data.item[i])
+                     }
+                 }
+                 box.innerHTML = str
+             },
+             error:function(){
+                 alert("失败")
+             }
+        })
+    }
+
+
+    console.log(arr3)
+	    var str1 = '';
+		 function classify(a){
+            str1 = ''//重置
+			for(var i=0;i<arr3.length;i++){
+				if(arr3[i].id1 == a){
+					str1+='<a href="z/hexi.html" class="z-chunk z-left" onmouseover="a()" onmouseout="b()">'+
+                           '<div class="z-maskFont">'+
+                           '<p>'+arr3[i].title+'</p>'+
+                           '<p>'+arr3[i].description+'</p>'+
+                           '</div>'+
+                           '<div class="z-delay">'+
+                           '<p>'+arr3[i].hotel+'</p>'+
+                           '<p>'+arr3[i].peoplenumber+'</p>'+
+                           '</div>'+
+                           '<img src=" '+ arr3[i].img +' ">'+
+                           '<div class="z-mask"></div>'+
+                           '</a>';
+				}
+			}
+			box.innerHTML = str1//写入页面
+	}
+=======
+
+
+
+    var jso = [
+	{
+        "id":1,
+        "id1":2,
+        "title":"秦凯&何姿西安婚礼",
+        "description":"高雅灰+轻奢粉，婚礼围绕「涟漪」这一主题，整体呈现了“流动的水”这一概念。",
+        "hotel":"酒店  西安豪享来温德姆至尊酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-personB.jpg"
+      },
+      {
+        "id":1,
+        "id1":2,
+        "title":"Swansea 天鹅之恋",
+        "description":"104个小时，1200公里，13个伙伴。在莫干山裸心谷，一场前所未有的深森系婚礼",
+        "hotel":"酒店  湖北莫愁湖国际大酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-personC.jpg"
+      },
+      {
+        "id":1,
+        "id1":2,
+        "title":"裸心谷森系婚礼",
+        "description":"如何在不出现任何一只天鹅的前提下演绎 天鹅之恋…",
+        "hotel":"酒店  莫干山奢华度假村 | 裸心谷",
+        "peoplenumber":"嘉宾  100人以下",
+        "img":"../img/z-img/z-personE.jpg"
+      },
+      {
+        "id":4,
+        "id1":1,
+        "title":"欧阳娜娜的梦想王国",
+        "description":"欧阳娜娜说，25岁要在这个梦幻场景里结婚！",
+        "hotel":"酒店  三里屯CHAO酒店",
+        "peoplenumber":"嘉宾  100人以下",
+        "img":"../img/z-img/z-personF.jpg"
+      },
+      {
+        "id":6,
+        "id1":1,
+        "title":"朝云",
+        "description":"复古的红色玫瑰、缠绑的麻绳、粗糙的树皮、翻倒的木制酒桶……",
+        "hotel":"酒店  北京东升汇文化园林酒店",
+        "peoplenumber":"嘉宾  100人以下",
+        "img":"../img/z-img/z-personA.jpg"
+      },
+      {
+        "id":4,
+        "id1":1,
+        "title":"朝云",
+        "description":"复古的红色玫瑰、缠绑的麻绳、粗糙的树皮、翻倒的木制酒桶……",
+        "hotel":"酒店  北京东升汇文化园林酒店",
+        "peoplenumber":"嘉宾  100人以下",
+        "img":"../img/z-img/z-personG.jpg"
+      },
+      {
+        "id":1,
+        "id1":2,
+        "title":"春の良源",
+        "description":"婚礼仪式中，设计了种小树苗的环节，寓意新人的爱情可以长久深厚",
+        "hotel":"酒店  蔓兰酒店",
+        "peoplenumber":"嘉宾  100人以下",
+        "img":"../img/z-img/z-water.jpg"
+      },
+      {
+        "id":5,
+        "id1":4,
+        "title":"情书",
+        "description":"他说，最骄傲的事就是娶到了高中前座位的她……",
+        "hotel":"酒店  秦皇岛国际酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-happy.jpg"
+      },
+      {
+        "id":2,
+        "id1":1,
+        "title":"爱的指纹密码",
+        "description":"带着伴郎团热舞，他就是微博热搜中那种“国外才有的新郎”！",
+        "hotel":"酒店  秦皇岛国际酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-sun.jpg"
+      },
+      {
+        "id":2,
+        "id1":1,
+        "title":"教堂白兰香许诺",
+        "description":"浮世流光，百媚成池。爱人的灵魂，是一座城池，只能住进至此一人",
+        "hotel":"酒店  华彬庄园",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-kiss.jpg"
+      },
+      {
+        "id":5,
+        "id1":4,
+        "title":"青葱年华生日宴",
+        "description":"灵动的青绿叶材，构成了带着蓬勃青葱气息的立体桌花，让一场生日宴别具味道",
+        "hotel":"酒店  丝路驿站餐厅",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-chair.jpg"
+      },
+      {
+        "id":3,
+        "id1":1,
+        "title":"爱的箴言",
+        "description":"“爱的箴言”寓意忠贞的爱，莫比乌斯环寓意无限的爱",
+        "hotel":"酒店  三亚亚龙湾瑞吉酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-cub.jpg"
+      },
+      {
+        "id":3,
+        "id1":2,
+        "title":"一眼万年",
+        "description":"浮世流光，百媚成池。爱人的灵魂，是一座城池，只能住进至此一人",
+        "hotel":"酒店  丽晶酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-pink.jpg"
+      },
+      {
+        "id":3,
+        "id1":2,
+        "title":"Happy Party",
+        "description":"在三亚的海边搭建起清新的小花亭，把婚礼办成一场欢乐的大派对",
+        "hotel":"酒店  金茂三亚亚龙湾丽思卡尔顿酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-flower.jpg"
+      },
+      {
+        "id":3,
+        "id1":2,
+        "title":"熹微",
+        "description":"婚礼在她们的心中是属于自己的节日，更是一场爱情的洗礼。",
+        "hotel":"酒店  泰山饭店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-shine.jpg"
+      },
+      {
+        "id":3,
+        "id1":2,
+        "title":"Honey 梦",
+        "description":"白色层层紧扣的圆形架构搭建而成的仪式背景，繁花缠绕成环的伏地花艺路引……",
+        "hotel":"酒店  御园汇",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-circle.jpg"
+      },
+      {
+        "id":6,
+        "id1":2,
+        "title":"达西花园",
+        "description":"马车、风笛、四重奏，这场婚礼让人想起达西先生的美丽花园。",
+        "hotel":"酒店  鸿禧高尔夫",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-pflower.jpg"
+      },
+      {
+        "id":6,
+        "id1":2,
+        "title":"Secret Garden",
+        "description":"透过金色的花园大门，充满绿意的秘密花园在阳光下闪耀。",
+        "hotel":"酒店  北湖九号",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-line.jpg"
+      },
+      {
+        "id":4,
+        "id1":2,
+        "title":"爱的旋律",
+        "description":"因为一对新人都是音乐爱好者，这场婚礼对于他们来说，就等于一曲只属于他们的旋律~",
+        "hotel":"酒店  大董餐厅",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-lime.jpg"
+      },
+      {
+        "id":4,
+        "id1":2,
+        "title":"爱临心城",
+        "description":"取一朵鸢尾花，看一场阳光厅中的柔美婚礼~",
+        "hotel":"酒店  北京朝阳悠唐皇冠假日酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-purple.jpg"
+      },
+      {
+        "id":4,
+        "id1":2,
+        "title":"卿·语",
+        "description":"爱情的故事，婚礼的诗篇，360篇日记化成如诗婚礼~。",
+        "hotel":"酒店  银泰柏悦酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-pinkline.jpg"
+      },
+      {
+        "id":4,
+        "id1":2,
+        "title":"枫",
+        "description":"这是一场回门宴，仪式区中央是一朵红色的枫叶。",
+        "hotel":"酒店  盘古七星酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-rose.jpg"
+      },
+      {
+        "id":5,
+        "id1":2,
+        "title":"小院朱红",
+        "description":"北京胡同里的深宅，坐拥满园春色，一抹朱红碰撞出小院中的新中式婚礼之美。",
+        "hotel":"酒店  什刹海会馆",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-three.jpg"
+      },
+      {
+        "id":5,
+        "id1":3,
+        "title":"凡尔赛玫瑰",
+        "description":"本场婚礼以「凡尔赛宫」为婚礼灵感，为我们讲述一场王室宫廷般的爱恋。",
+        "hotel":"酒店  沈阳香格里拉酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-four.jpg"
+      },
+      {
+        "id":1,
+        "id1":3,
+        "title":"爱的旅行",
+        "description":"将我们的婚礼，变成家人朋友旅行中的一站，我们带着30位亲友飞去结婚啦！",
+        "hotel":"酒店  三亚亚龙湾喜来登酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-tree.jpg"
+      },
+      {
+        "id":1,
+        "id1":3,
+        "title":"Follow Your Heart",
+        "description":"看一场户外的小清新森系婚礼，感受爱是荒废的灵魂遇到幸福的邂逅！",
+        "hotel":"酒店  唐廊餐厅",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-two.jpg"
+      },
+      {
+        "id":4,
+        "id1":5,
+        "title":"青黛朱红落千山",
+        "description":"长城脚下万山丛中，跳出繁忙都市，享受自然浪漫的田园婚礼~",
+        "hotel":"酒店  长城脚下的公社",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-house.jpg"
+      },
+      {
+        "id":4,
+        "id1":5,
+        "title":"时间胶囊",
+        "description":"我们在人生的道路上不断告别、迎接。记忆都会被装进“时间胶囊”，留给未来慢慢回味。",
+        "hotel":"酒店  励骏酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-blue.jpg"
+      },
+      {
+        "id":4,
+        "id1":5,
+        "title":"仲夏日之梦",
+        "description":"红橙绿三色，设计师用热烈浓郁的色彩构成了一场仲夏日之梦。",
+        "hotel":"酒店  罗兰湖餐厅",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-apple.jpg"
+      },
+      {
+        "id":6,
+        "id1":3,
+        "title":"绿园径香",
+        "description":"精灵们利落地为森林上妆，白幔云纱，轻舞霓裳，森林顿时换了模样",
+        "hotel":"酒店  马奈草地",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-door.jpg"
+      },
+      {
+        "id":6,
+        "id1":5,
+        "title":"湾·月 ",
+        "description":"婚礼仪式背景用淡山茱萸粉画面打底，彩绘玻璃的花纹做月亮造型，烘托“湾 ·月”主题",
+        "hotel":"酒店  马奈草地",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-moon.jpg"
+      },
+      {
+        "id":4,
+        "id1":6,
+        "title":"皓月",
+        "description":"从“新月篇”的爱情部分，到“半月篇”的亲情友情，到新家庭组建的“满月篇”连成一线",
+        "hotel":"酒店  柏悦酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-whitemoon.jpg"
+      },
+      {
+        "id":6,
+        "id1":4,
+        "title":"教堂马车一世情",
+        "description":"新娘乘坐着白色南瓜马车来到教堂门口，在父亲的陪伴下走进教堂，走向她深爱的男人。",
+        "hotel":"酒店  华彬庄园",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-son.jpg"
+      },
+      {
+        "id":7,
+        "id1":4,
+        "title":"清氧",
+        "description":"木门框住喷泉形成最自然的仪式区背景。清新的花材、零落的鹅卵石、还有可爱的小苔藓…。",
+        "hotel":"酒店  御园汇",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-green.jpg"
+      },
+      {
+        "id":4,
+        "id1":4,
+        "title":"沙漏",
+        "description":"这是一场以“系”为题，以沙漏为形，以时间为名的婚礼。",
+        "hotel":"酒店  御园汇",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-center.jpg"
+      },
+      {
+        "id":4,
+         "id1":4,
+        "title":"情定拉斯维加斯",
+        "description":"一场充满爱的完美婚礼，献给新人及爱他们的家人。",
+        "hotel":"酒店  沈阳香格里拉",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-waterpurple.jpg"
+      },
+      {
+        "id":5,
+        "id1":6,
+        "title":"梦呓密语",
+        "description":"从此，在你眸里深居，于意念里盛放。",
+        "hotel":"酒店  三亚文华东方酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-right.jpg"
+      },
+      {
+        "id":4,
+        "id1":4,
+        "title":"非来的爱",
+        "description":"婚礼现场仿佛大自然天地，处处鸟语花香。有可爱的非洲象、雪白的山羊……",
+        "hotel":"酒店  北京盘古七星酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-centerpurpe.jpg"
+      },
+      {
+        "id":7,
+        "id1":4,
+        "title":"爱的阶梯",
+        "description":"环形的阶梯像温柔的臂弯，拥着一座心城！",
+        "hotel":"酒店  紫玉山庄",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-price.jpg"
+      },
+      {
+        "id":6,
+        "id1":5,
+        "title":"微醺下午茶",
+        "description":"温暖的阳关穿过枝头的树叶照进他们家的后花园，曼妙惬意的画面立刻浮上心头。",
+        "hotel":"酒店  中国大饭店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-bear.jpg"
+      },
+      {
+        "id":6,
+        "id1":4,
+        "title":"以梦为马",
+        "description":"樱花树下，一轮圆月，我曾踏月而来，只因你在梦中！",
+        "hotel":"酒店  钓鱼台国宾馆",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-purplefoower.jpg"
+      },
+      {
+        "id":2,
+        "id1":4,
+        "title":"紫藤花羽",
+        "description":"今天在这紫藤花海下许下誓言，未来，要携手走遍世界，让每一个人见证我们的爱情！",
+        "hotel":"酒店  山西孝义",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-ww.jpg"
+      },
+      {
+        "id":2,
+        "id1":5,
+        "title":"幻",
+        "description":"在盛夏8月举办一场冰雪婚礼，推开宴会厅的大门，晶莹剔透，纯净清凉。",
+        "hotel":"酒店  三亚天房洲际酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-bpueww.jpg"
+      },
+      {
+        "id":2,
+        "id1":7,
+        "title":"契·合",
+        "description":"几何形状拼接的花门，诠释恋人刚柔并济的融和~",
+        "hotel":"酒店  三亚半山半岛洲际酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-threechair.jpg"
+      },
+      {
+        "id":5,
+        "id1":5,
+        "title":"时光柔梦",
+        "description":"教堂的白色花墙，被花台簇拥的烛台，闪烁着撩人的灯火。它们是圣士，见证我们的誓言…",
+        "hotel":"酒店  成都",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-more.jpg"
+      },
+      {
+        "id":3,
+        "id1":4,
+        "title":"花火",
+        "description":"大气浪漫的氛围，温馨纯净的装饰，庄重的仪式感，仿佛置身于一座璀璨的殿堂……",
+        "hotel":"酒店  北京香格里拉酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-gold.jpg"
+      },
+      {
+        "id":5,
+        "id1":7,
+        "title":"爱的盛宴",
+        "description":"在近4000平米的厂房，布幔，花材，水晶灯，灯光渲染拉出整体空间的层次感。",
+        "hotel":"酒店  成都厂房",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-lala.jpg"
+      },
+      {
+        "id":3,
+        "id1":4,
+        "title":"繁花似锦·宜其室家",
+        "description":"在狭长热闹的胡同中，在锣鼓喧喧的四合院里，阳光穿过绿叶洒在院落里的木椅上……",
+        "hotel":"酒店  北京如园四合院酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-red.jpg"
+      },
+      {
+        "id":6,
+        "id1":6,
+        "title":"樱花粉球飘",
+        "description":"那一抹淡淡的樱花粉，多一分则妩媚，少一分则无趣，唯美中透着轻盈，就像你绯红的脸颊",
+        "hotel":"酒店  三亚天房洲际酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-gas.jpg"
+      },
+      {
+        "id":5,
+        "id1":1,
+        "title":"怦然心动",
+        "description":"当学长遇到学妹，一段从相遇开始的爱情，一场一见钟情的清新森系婚礼~",
+        "hotel":"酒店  长城脚下的公社",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-face.jpg"
+      },
+      {
+        "id":3,
+        "id1":3,
+        "title":"IN 橱窗",
+        "description":"三盏水晶吊灯华丽而厚重，一个橱窗式的造景区格外引人瞩目……",
+        "hotel":"酒店  郑州万豪酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-do.jpg"
+      },
+      {
+        "id":5,
+        "id1":6,
+        "title":"白蓝之约",
+        "description":"三盏水晶吊灯华丽而厚重，一个橱窗式的造景区格外引人瞩目……",
+        "hotel":"酒店  御园汇",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-do.jpg"
+      },
+      {
+        "id":5,
+        "id1":6,
+        "title":"冰雪奇缘",
+        "description":"冰蓝色的主色调、硕硕大的雪花、成串掉落的冰柱，还有那冰雕一样的主桌花……",
+        "hotel":"酒店  三亚海口万豪酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-yang.jpg"
+      },
+      {
+        "id":5,
+        "id1":4,
+        "title":"温巢",
+        "description":"清风徐浪，椰树下筑起一座温暖的巢。",
+        "hotel":"酒店  三亚威斯汀酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-worm.jpg"
+      },
+      {
+        "id":2,
+        "id1":3,
+        "title":"温巢",
+        "description":"清风徐浪，椰树下筑起一座温暖的巢。",
+        "hotel":"酒店  三亚威斯汀酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-worm.jpg"
+      },
+      {
+        "id":2,
+        "id1":3,
+        "title":"自然呼吸",
+        "description":"垂吊的常春藤，大片龟背竹，整颗滴水观音，一朵花都没有用自然恣意生长的宴会~",
+        "hotel":"酒店  Copper 铜",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-smile.jpg"
+      },
+      {
+        "id":6,
+        "id1":2,
+        "title":"蜜语",
+        "description":"70人的至亲好友，一起享受三亚的阳光沙滩和完美假期~",
+        "hotel":"酒店  三亚海棠湾威斯汀酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-pinkchair.jpg"
+      },
+      {
+        "id":3,
+        "id1":6,
+        "title":"镜花水月",
+        "description":"三亚天空静谧而又深邃，温暖的玫瑰粉和静谧蓝色交汇碰撞出淡淡的柔和自然~",
+        "hotel":"酒店  三亚太阳湾柏悦",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-hand.jpg"
+      },
+      {
+        "id":2,
+        "id1":6,
+        "title":"童趣",
+        "description":"海贼王主题的甜品台上，黄色诱人的牛角面包、松软可口的巧克力蛋糕，让人怎能不心动？",
+        "hotel":"酒店  茉莉餐厅",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-redchair.jpg"
+      },
+      {
+        "id":2,
+        "id1":6,
+        "title":"回音",
+        "description":"设计师用丰富的元素，将新人爱情记忆中最珍贵的声音变成了可见的美好场景",
+        "hotel":"酒店  瑰丽酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-zizi.jpg"
+      },
+      {
+        "id":3,
+        "id1":6,
+        "title":"求婚 999朵黑魔术玫瑰",
+        "description":"他一直坚定地认为：应该要给她这样一场求婚，女孩子都会期待这一天。",
+        "hotel":"酒店  北京",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-chuang.jpg"
+      },
+      {
+        "id":2,
+        "id1":6,
+        "title":"手心·蔷薇",
+        "description":"婚礼整体以巴洛克为风格导向，从细节便能体会到婚礼的质感！",
+        "hotel":"酒店  北京励骏酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-kissred.jpg"
+      },
+      {
+        "id":4,
+        "id1":3,
+        "title":"捕梦网",
+        "description":"一场关于梦的婚礼，随风飘舞的羽毛和流苏，一切都灵动了起来~",
+        "hotel":"酒店  三亚康莱德酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-gass.jpg"
+      },
+      {
+        "id":3,
+        "id1":5,
+        "title":"汉礼",
+        "description":"草坪上的汉式婚礼，既典雅又清新，将传统文化与摩登氛围完美结合",
+        "hotel":"酒店  颐和安缦酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-apples.jpg"
+      },
+      {
+        "id":1,
+        "id1":4,
+        "title":"时光隧道",
+        "description":"三亚海岛上的刘诗诗同款婚礼，设计师用新人名字首字母为它赋予了新生~",
+        "hotel":"酒店  三亚天房洲际酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-、kisscircle.jpg"
+      },
+      {
+        "id":3,
+        "id1":5,
+        "title":"花都开好了",
+        "description":"她竟然把数学家的“莫比乌斯环”变成了自己婚礼的主题！",
+        "hotel":"酒店  三亚美高美酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-pinkflower.jpg"
+      },
+      {
+        "id":4,
+        "id1":3,
+        "title":"亲密爱人",
+        "description":"以梅艳芳的《亲密爱人》贯穿婚礼，运用根雕和绣绷营造出南北结合的氛围",
+        "hotel":"酒店  三亚美高美酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-、kisscircle.jpg"
+      },
+      {
+        "id":1,
+        "id1":4,
+        "title":"星辰大海",
+        "description":"地上人造的星辰在闪耀，天上浩瀚的繁星更璀璨",
+        "hotel":"酒店  三亚海棠湾威斯汀酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-、kisscircle.jpg"
+      },
+      {
+        "id":2,
+        "id1":3,
+        "title":"圜",
+        "description":"红纱漫天，一对红烛微闪。迈火盆、跨马鞍、拜天地……这是一场纯正的中式婚礼。",
+        "hotel":"酒店  稻香湖景",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-san.jpg"
+      },
+      {
+        "id":1,
+        "id1":2,
+        "title":"小院朱红",
+        "description":"北京胡同里的深宅，坐拥满园春色，一抹朱红碰撞出小院中的新中式婚礼之美。",
+        "hotel":"酒店  什刹海会馆",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-three.jpg"
+      },
+      {
+        "id":5,
+        "id1":3,
+        "title":"凡尔赛玫瑰",
+        "description":"本场婚礼以「凡尔赛宫」为婚礼灵感，为我们讲述一场王室宫廷般的爱恋。",
+        "hotel":"酒店  沈阳香格里拉酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-four.jpg"
+      },
+      {
+        "id":1,
+        "id1":3,
+        "title":"爱的旅行",
+        "description":"将我们的婚礼，变成家人朋友旅行中的一站，我们带着30位亲友飞去结婚啦！",
+        "hotel":"酒店  三亚亚龙湾喜来登酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-tree.jpg"
+      },
+      {
+        "id":1,
+        "id1":3,
+        "title":"Follow Your Heart",
+        "description":"看一场户外的小清新森系婚礼，感受爱是荒废的灵魂遇到幸福的邂逅！",
+        "hotel":"酒店  唐廊餐厅",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-two.jpg"
+      },
+      {
+        "id":4,
+        "id1":5,
+        "title":"青黛朱红落千山",
+        "description":"长城脚下万山丛中，跳出繁忙都市，享受自然浪漫的田园婚礼~",
+        "hotel":"酒店  长城脚下的公社",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-house.jpg"
+      },
+      {
+        "id":4,
+        "id1":5,
+        "title":"时间胶囊",
+        "description":"我们在人生的道路上不断告别、迎接。记忆都会被装进“时间胶囊”，留给未来慢慢回味。",
+        "hotel":"酒店  励骏酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-blue.jpg"
+      },
+      {
+        "id":4,
+        "id1":5,
+        "title":"仲夏日之梦",
+        "description":"红橙绿三色，设计师用热烈浓郁的色彩构成了一场仲夏日之梦。",
+        "hotel":"酒店  罗兰湖餐厅",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-apple.jpg"
+      },
+      {
+        "id":6,
+        "id1":3,
+        "title":"绿园径香",
+        "description":"精灵们利落地为森林上妆，白幔云纱，轻舞霓裳，森林顿时换了模样",
+        "hotel":"酒店  马奈草地",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-door.jpg"
+      },
+      {
+        "id":5,
+        "id1":5,
+        "title":"湾·月 ",
+        "description":"婚礼仪式背景用淡山茱萸粉画面打底，彩绘玻璃的花纹做月亮造型，烘托“湾 ·月”主题",
+        "hotel":"酒店  马奈草地",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-moon.jpg"
+      },
+      {
+        "id":2,
+        "id1":6,
+        "title":"皓月",
+        "description":"从“新月篇”的爱情部分，到“半月篇”的亲情友情，到新家庭组建的“满月篇”连成一线",
+        "hotel":"酒店  柏悦酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-whitemoon.jpg"
+      },
+      {
+        "id":3,
+        "id1":4,
+        "title":"教堂马车一世情",
+        "description":"新娘乘坐着白色南瓜马车来到教堂门口，在父亲的陪伴下走进教堂，走向她深爱的男人。",
+        "hotel":"酒店  华彬庄园",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-son.jpg"
+      },
+      {
+        "id":1,
+        "id1":4,
+        "title":"清氧",
+        "description":"木门框住喷泉形成最自然的仪式区背景。清新的花材、零落的鹅卵石、还有可爱的小苔藓…。",
+        "hotel":"酒店  御园汇",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-green.jpg"
+      },
+      {
+        "id":2,
+        "id1":4,
+        "title":"沙漏",
+        "description":"这是一场以“系”为题，以沙漏为形，以时间为名的婚礼。",
+        "hotel":"酒店  御园汇",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-center.jpg"
+      },
+      {
+        "id":4,
+         "id1":4,
+        "title":"情定拉斯维加斯",
+        "description":"一场充满爱的完美婚礼，献给新人及爱他们的家人。",
+        "hotel":"酒店  沈阳香格里拉",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-waterpurple.jpg"
+      },
+      {
+        "id":4,
+        "id1":6,
+        "title":"梦呓密语",
+        "description":"从此，在你眸里深居，于意念里盛放。",
+        "hotel":"酒店  三亚文华东方酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-right.jpg"
+      },
+      {
+        "id":4,
+        "id1":4,
+        "title":"非来的爱",
+        "description":"婚礼现场仿佛大自然天地，处处鸟语花香。有可爱的非洲象、雪白的山羊……",
+        "hotel":"酒店  北京盘古七星酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-centerpurpe.jpg"
+      },
+      {
+        "id":2,
+        "id1":4,
+        "title":"爱的阶梯",
+        "description":"环形的阶梯像温柔的臂弯，拥着一座心城！",
+        "hotel":"酒店  紫玉山庄",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-price.jpg"
+      },
+      {
+        "id":4,
+        "id1":5,
+        "title":"微醺下午茶",
+        "description":"温暖的阳关穿过枝头的树叶照进他们家的后花园，曼妙惬意的画面立刻浮上心头。",
+        "hotel":"酒店  中国大饭店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-bear.jpg"
+      },
+      {
+        "id":3,
+        "id1":4,
+        "title":"以梦为马",
+        "description":"樱花树下，一轮圆月，我曾踏月而来，只因你在梦中！",
+        "hotel":"酒店  钓鱼台国宾馆",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-purplefoower.jpg"
+      },
+      {
+        "id":2,
+        "id1":4,
+        "title":"紫藤花羽",
+        "description":"今天在这紫藤花海下许下誓言，未来，要携手走遍世界，让每一个人见证我们的爱情！",
+        "hotel":"酒店  山西孝义",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-ww.jpg"
+      },
+      {
+        "id":2,
+        "id1":5,
+        "title":"幻",
+        "description":"在盛夏8月举办一场冰雪婚礼，推开宴会厅的大门，晶莹剔透，纯净清凉。",
+        "hotel":"酒店  三亚天房洲际酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-bpueww.jpg"
+      },
+      {
+        "id":2,
+        "id1":1,
+        "title":"契·合",
+        "description":"几何形状拼接的花门，诠释恋人刚柔并济的融和~",
+        "hotel":"酒店  三亚半山半岛洲际酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-threechair.jpg"
+      },
+      {
+        "id":5,
+        "id1":5,
+        "title":"时光柔梦",
+        "description":"教堂的白色花墙，被花台簇拥的烛台，闪烁着撩人的灯火。它们是圣士，见证我们的誓言…",
+        "hotel":"酒店  成都",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-more.jpg"
+      },
+      {
+        "id":3,
+        "id1":4,
+        "title":"花火",
+        "description":"大气浪漫的氛围，温馨纯净的装饰，庄重的仪式感，仿佛置身于一座璀璨的殿堂……",
+        "hotel":"酒店  北京香格里拉酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-gold.jpg"
+      },
+      {
+        "id":5,
+        "id1":5,
+        "title":"爱的盛宴",
+        "description":"在近4000平米的厂房，布幔，花材，水晶灯，灯光渲染拉出整体空间的层次感。",
+        "hotel":"酒店  成都厂房",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-lala.jpg"
+      },
+      {
+        "id":3,
+        "id1":4,
+        "title":"繁花似锦·宜其室家",
+        "description":"在狭长热闹的胡同中，在锣鼓喧喧的四合院里，阳光穿过绿叶洒在院落里的木椅上……",
+        "hotel":"酒店  北京如园四合院酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-red.jpg"
+      },
+      {
+        "id":6,
+        "id1":6,
+        "title":"樱花粉球飘",
+        "description":"那一抹淡淡的樱花粉，多一分则妩媚，少一分则无趣，唯美中透着轻盈，就像你绯红的脸颊",
+        "hotel":"酒店  三亚天房洲际酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-gas.jpg"
+      },
+      {
+        "id":5,
+        "id1":1,
+        "title":"怦然心动",
+        "description":"当学长遇到学妹，一段从相遇开始的爱情，一场一见钟情的清新森系婚礼~",
+        "hotel":"酒店  长城脚下的公社",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-face.jpg"
+      },
+      {
+        "id":3,
+        "id1":3,
+        "title":"IN 橱窗",
+        "description":"三盏水晶吊灯华丽而厚重，一个橱窗式的造景区格外引人瞩目……",
+        "hotel":"酒店  郑州万豪酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-do.jpg"
+      },
+      {
+        "id":5,
+        "id1":6,
+        "title":"白蓝之约",
+        "description":"三盏水晶吊灯华丽而厚重，一个橱窗式的造景区格外引人瞩目……",
+        "hotel":"酒店  御园汇",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-do.jpg"
+      },
+      {
+        "id":5,
+        "id1":6,
+        "title":"冰雪奇缘",
+        "description":"冰蓝色的主色调、硕硕大的雪花、成串掉落的冰柱，还有那冰雕一样的主桌花……",
+        "hotel":"酒店  三亚海口万豪酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-yang.jpg"
+      },
+      {
+        "id":5,
+        "id1":6,
+        "title":"温巢",
+        "description":"清风徐浪，椰树下筑起一座温暖的巢。",
+        "hotel":"酒店  三亚威斯汀酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-worm.jpg"
+      },
+      {
+        "id":2,
+        "id1":3,
+        "title":"温巢",
+        "description":"清风徐浪，椰树下筑起一座温暖的巢。",
+        "hotel":"酒店  三亚威斯汀酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-worm.jpg"
+      },
+      {
+        "id":2,
+        "id1":3,
+        "title":"自然呼吸",
+        "description":"垂吊的常春藤，大片龟背竹，整颗滴水观音，一朵花都没有用自然恣意生长的宴会~",
+        "hotel":"酒店  Copper 铜",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-smile.jpg"
+      },
+      {
+        "id":3,
+        "id1":6,
+        "title":"蜜语",
+        "description":"70人的至亲好友，一起享受三亚的阳光沙滩和完美假期~",
+        "hotel":"酒店  三亚海棠湾威斯汀酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-pinkchair.jpg"
+      },
+      {
+        "id":3,
+        "id1":6,
+        "title":"镜花水月",
+        "description":"三亚天空静谧而又深邃，温暖的玫瑰粉和静谧蓝色交汇碰撞出淡淡的柔和自然~",
+        "hotel":"酒店  三亚太阳湾柏悦",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-hand.jpg"
+      },
+      {
+        "id":2,
+        "id1":6,
+        "title":"童趣",
+        "description":"海贼王主题的甜品台上，黄色诱人的牛角面包、松软可口的巧克力蛋糕，让人怎能不心动？",
+        "hotel":"酒店  茉莉餐厅",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-redchair.jpg"
+      },
+      {
+        "id":6,
+        "id1":4,
+        "title":"回音",
+        "description":"设计师用丰富的元素，将新人爱情记忆中最珍贵的声音变成了可见的美好场景",
+        "hotel":"酒店  瑰丽酒店",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-zizi.jpg"
+      },
+      {
+        "id":1,
+        "id1":6,
+        "title":"求婚 999朵黑魔术玫瑰",
+        "description":"他一直坚定地认为：应该要给她这样一场求婚，女孩子都会期待这一天。",
+        "hotel":"酒店  北京",
+        "peoplenumber":"嘉宾  300人以上",
+        "img":"../img/z-img/z-chuang.jpg"
+      }
+
+
+	]
+		//显示全部的
+		var str = ''//启示的字符串
+
+       
+		for(var i=0;i<jso.length;i++){
+		    str+='<a href="z/hexi.html" class="z-chunk z-left" onmouseover="a()" onmouseout="b()">'+
+                  '<div class="z-maskFont">'+
+                  '<p>'+jso[i].title+'</p>'+
+                  '<p>'+jso[i].description+'</p>'+
+                  '</div>'+
+                  '<div class="z-delay">'+
+                  '<p>'+jso[i].hotel+'</p>'+
+                  '<p>'+jso[i].peoplenumber+'</p>'+
+                  '</div>'+
+                  '<img src=" '+ jso[i].img +' ">'+
+                  '<div class="z-mask"></div>'+
+                  '</a>';
+
+			}
+		box.innerHTML = str//写入页面
+
+
+        function botn(){
+            for(var i=0;i<jso.length;i++){
+            str+='<a href="z/hexi.html" class="z-chunk z-left" onmouseover="a()" onmouseout="b()">'+
+                  '<div class="z-maskFont">'+
+                  '<p>'+jso[i].title+'</p>'+
+                  '<p>'+jso[i].description+'</p>'+
+                  '</div>'+
+                  '<div class="z-delay">'+
+                  '<p>'+jso[i].hotel+'</p>'+
+                  '<p>'+jso[i].peoplenumber+'</p>'+
+                  '</div>'+
+                  '<img src=" '+ jso[i].img +' ">'+
+                  '<div class="z-mask"></div>'+
+                  '</a>';
+            }
+            box.innerHTML = str//写入页面
+        }
+		//一级分类
+		var arr2 = jso//供二级分类使用的数组
+
+		function han(a){
+			str = ''//重置字符串
+			arr2 = []//重置二类数组
+			for(var i=0;i<jso.length;i++){
+				console.log(jso)
+				if(jso[i].id == a){
+				str+='<a href="z/hexi.html" class="z-chunk z-left" onmouseover="a()" onmouseout="b()">'+
+                    '<div class="z-maskFont">'+
+                    '<p>'+jso[i].title+'</p>'+
+                    '<p>'+jso[i].description+'</p>'+
+                    '</div>'+
+                    '<div class="z-delay">'+
+                    '<p>'+jso[i].hotel+'</p>'+
+                    '<p>'+jso[i].peoplenumber+'</p>'+
+                    '</div>'+
+                    '<img src=" '+ jso[i].img +' ">'+
+                    '<div class="z-mask"></div>'+
+                    '</a>';
+			    arr2.push(jso[i])//加入二类函数
+				}
+			}
+			box.innerHTML = str//写入页面
+		}
+		var str1 = ''//二类字符串初始
+		//二级分类
+		function pink(a){
+			str1 = ''//重置
+			for(var i=0;i<arr2.length;i++){
+				if(arr2[i].id1 == a){
+				<!--console.log(arr2)-->
+					str1+='<a href="z/hexi.html" class="z-chunk z-left" onmouseover="a()" onmouseout="b()">'+
+                    '<div class="z-maskFont">'+
+                    '<p>'+arr2[i].title+'</p>'+
+                    '<p>'+arr2[i].description+'</p>'+
+                    '</div>'+
+                    '<div class="z-delay">'+
+                    '<p>'+arr2[i].hotel+'</p>'+
+                    '<p>'+arr2[i].peoplenumber+'</p>'+
+                    '</div>'+
+                    '<img src=" '+ arr2[i].img +' ">'+
+                    '<div class="z-mask"></div>'+
+                    '</a>';
+				}
+			}
+			box.innerHTML = str1
+		}
+>>>>>>> origin/master
+
+</script>
 </html>

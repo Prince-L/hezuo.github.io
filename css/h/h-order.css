@@ -1,0 +1,33 @@
+.h-order{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.h-order>p{
+    padding: 40px;
+    font-size: 18px;
+    color: #ccc;
+}
+.h-order-inp-one{
+    width: 80%;
+    height: 150px;
+    margin: 20px auto;
+}
+.h-order-inp-one>input{
+    text-align: center;
+    width: 90%;
+    height:40px;
+    display: block;
+    margin: 15px;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid #4c4c4c;
+}
+.h-order-inp>button{
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    background-color: #ccc;
+    color: #000;
+}
