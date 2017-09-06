@@ -2,7 +2,6 @@
  * Created by lenovo on 2017/8/24.
  */
 //下拉
-<<<<<<< HEAD
 
 var w_select=document.querySelector('.w_select');
 var w_pp=document.querySelector('.w_pp');
@@ -88,25 +87,6 @@ w_select.onclick=function () {
 
 
 
-=======
-var w_select=document.querySelector('.w_select');
-var w_p=w_select.querySelectorAll('p');
-var w_span=w_select.querySelector('span');
-var flag=true;
- w_select.onclick=function () {
-    if(flag){
-        w_select.style.height='250px';
-        w_p[1].style.color='#FB515A';
-        w_span.className='w_span2';
-        flag=false;
-    }else{
-        w_select.style.height='50px';
-        w_p[1].style.color='';
-        w_span.className='w_span';
-        flag=true;
-    }  
-};
->>>>>>> origin/master
 // $('.w_select').toggle(function(){
 //         w_select.style.height='250px';
 //         w_p[1].style.color='#FB515A';
@@ -133,7 +113,6 @@ var flag=true;
 //     onOff%=fns.length;
 // }
 
-<<<<<<< HEAD
 // //吸顶条
 // var w_jiuhao_find=document.querySelector('.w_jiuhao_find');
 // var t = w_jiuhao_find.scrollTop;
@@ -152,6 +131,3 @@ var flag=true;
 //         //w_jiuhao_find.style.bottom = '625px';
 //     }
 // }
-=======
-
->>>>>>> origin/master

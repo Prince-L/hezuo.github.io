@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 @media screen and (max-width:640px){
     .toggle{
         transform: translateX(50%);
@@ -34,19 +33,6 @@
         top: 0;
         width: 100%;
         height: 20px;
-=======
-@media screen and (max-width:768px){
-    .h-nav{
-        width: 100%;
-        /*position: relative;*/
-        float: left;
-    }
-    .h-nav1{
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 33px;
->>>>>>> origin/master
         z-index: 999;
         padding: 20px 0;
         -webkit-background-color: #000;
@@ -58,16 +44,11 @@
     }
     .h-nav2{
         width: 100%;
-<<<<<<< HEAD
         height: 20px;
-=======
-        height: 33px;
->>>>>>> origin/master
         margin-left: auto;
         margin-right: auto;
     }
     .h-nav-logo{
-<<<<<<< HEAD
         width: 100%;
         height: 20px;
         float: left;
@@ -479,68 +460,5 @@
         background-color: #FB515A;
         color: #fff;
         border-radius: 10px;
-=======
-        width: 99px;
-        height: 33px;
-        float: left;
-    }
-    .h-nav-logo a{
-        font-size: 27px;
-        color: #fff;
-        font-weight: bold;
-    }
-    .h-nav-logo a .h-PC{
-        width: 100%;
-        height: 100%;
-        display: inline-block;
-        margin-left: 50%;
-        float: left;
-    }
-    .h-nav-logo a .h-phone{
-        display: inline-block;
-        float: left;
-        width: 40px;
-        height: 40px;
-    }
-    .h-nav2 ul{
-        float: right;
-        display: none;
-    }
-    .h-nav2 ul li{
-        float: left;
-        margin-left: 50px;
-    }
-    .h-nav2 ul li a{
-        display: inline-block;
-        height: 33px;
-        line-height: 33px;
-        font-size: 16px;
-        color: #FFFFFF;
-        letter-spacing: 0;
-    }
-    .h-nav2 ul li .icon-dianhua{
-        font-size: 24px;
-        color: #fff;
-    }
-    .h-nav2 ul li span.select{
-        width:100%;
-        height: 2px;
-        display: block;
-        -webkit-background-color: #fff;
-        -o-background-color:#fff;
-        -moz-background-color:#fff;
-        -ms-background-color:#fff;
-        background-color: #fff;
-    }
-    .h-nav2 ul li span{
-        width:0;
-        height: 2px;
-        display: block;
-        -webkit-background-color: #fff;
-        -o-background-color:#fff;
-        -moz-background-color:#fff;
-        -ms-background-color:#fff;
-        background-color: #fff;
->>>>>>> origin/master
     }
 }
